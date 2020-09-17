@@ -6,5 +6,10 @@ This tutorial will begin with the basic concepts of why kids should learn to pro
 
 -> Click [HERE](https://www.linkedin.com/pulse/kids-python-part-1-goals-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 2: Python For Kids (Part 2: Install Mu IDE)
+This tutorial will step-by-step help you get the Mu integrated development environment set up for you and your child to begin developing.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/) to read the article on LinkedIn.
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
