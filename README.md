@@ -32,7 +32,7 @@ This tutorial will step-by-step code a FUN program where we will work with words
 -> COMING SOON
 
 ## Lesson 7: Python For Kids (Part 7: FUN With Word Lists)
-This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make lists with them. 
+This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
 
 -> COMING SOON
 
