@@ -22,7 +22,32 @@ This tutorial will step-by-step code a FUN gesture making program where our litt
 -> COMING SOON
 
 ## Lesson 5: Python For Kids (Part 5: FUN With Numbers)
-This tutorial will step-by-step code a FUN program where we will learn about numbers and how to make variables with them. 
+This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
+
+-> COMING SOON
+
+## Lesson 6: Python For Kids (Part 6: FUN With Words)
+This tutorial will step-by-step code a FUN program where we will work with words and learn about how to make variables with them. 
+
+-> COMING SOON
+
+## Lesson 7: Python For Kids (Part 7: FUN With Word Lists)
+This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make lists with them. 
+
+-> COMING SOON
+
+## Lesson 8: Python For Kids (Part 8: FUN With Sounds)
+This tutorial will step-by-step code a FUN sound making program where our little microcontroller will make various sounds to his new friend. 
+
+-> COMING SOON
+
+## Lesson 9: Python For Kids (Part 9: FUN With Songs)
+This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
+
+-> COMING SOON
+
+## Lesson 10: Python For Kids (Part 10: FUN With Talking Robots
+This tutorial will step-by-step code a FUN robot talking program where our little microcontroller will talk to his new friend. 
 
 -> COMING SOON
 
