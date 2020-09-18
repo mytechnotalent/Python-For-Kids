@@ -12,9 +12,19 @@ This tutorial will step-by-step help you get the Mu integrated development envir
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 3: Python For Kids (Part 3: "Hello World")
-This tutorial will step-by-step code our first program to have our little computer say hello to the world!
+This tutorial will step-by-step code our first program to have our little microcontroller say hello to the world!
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-3-hello-world-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 4: Python For Kids (Part 4: FUN With Gestures)
+This tutorial will step-by-step code a FUN gesture making program where our little microcontroller will make various faces to his new friend.
+
+-> COMING SOON
+
+## Lesson 5: Python For Kids (Part 5: FUN With Numbers)
+This tutorial will step-by-step code a FUN program where we will learn about numbers and how to make variables with them. 
+
+-> COMING SOON
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
