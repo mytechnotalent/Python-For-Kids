@@ -11,5 +11,10 @@ This tutorial will step-by-step help you get the Mu integrated development envir
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-2-install-mu-ide-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 3: Python For Kids (Part 3: "Hello World")
+This tutorial will step-by-step code our first program to have our little computer say hello to the world!
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-3-hello-world-kevin-thomas/) to read the article on LinkedIn.
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
