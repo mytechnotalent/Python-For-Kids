@@ -19,7 +19,7 @@ This tutorial will step-by-step code our first program to have our little microc
 ## Lesson 4: Python For Kids (Part 4: FUN With Gestures)
 This tutorial will step-by-step code a FUN gesture making program where our little microcontroller will make various faces to his new friend.
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-4-fun-gestures-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 5: Python For Kids (Part 5: FUN With Numbers)
 This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
