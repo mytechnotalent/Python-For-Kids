@@ -24,7 +24,7 @@ This tutorial will step-by-step code a FUN gesture making program where our litt
 ## Lesson 5: Python For Kids (Part 5: FUN With Numbers)
 This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-5-fun-numbers-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 6: Python For Kids (Part 6: FUN With Words)
 This tutorial will step-by-step code a FUN program where we will work with words and learn about how to make variables with them. 
