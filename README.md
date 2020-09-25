@@ -29,7 +29,7 @@ This tutorial will step-by-step code a FUN program where we will work with numbe
 ## Lesson 6: Python For Kids (Part 6: FUN With Words)
 This tutorial will step-by-step code a FUN program where we will work with words and learn about how to make variables with them. 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-6-python-kids-part-fun-words-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 7: Python For Kids (Part 7: FUN With Word Lists)
 This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
