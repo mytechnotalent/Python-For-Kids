@@ -48,5 +48,10 @@ This tutorial will step-by-step code a FUN robot talking program where our littl
 
 -> COMING SOON
 
+## Lesson 10: Python For Kids (Part 10: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
+This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
+
+-> COMING SOON
+
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
