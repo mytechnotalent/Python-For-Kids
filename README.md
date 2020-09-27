@@ -34,7 +34,7 @@ This tutorial will step-by-step code a FUN program where we will work with words
 ## Lesson 7: Python For Kids (Part 7: FUN With Word Lists)
 This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-7-fun-word-lists-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 8: Python For Kids (Part 8: FUN With Sounds)
 This tutorial will step-by-step code a FUN sound making program where our little microcontroller will make various sounds to his new friend. 
