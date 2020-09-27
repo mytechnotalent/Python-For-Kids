@@ -1,3 +1,5 @@
+![image](https://raw.githubusercontent.com/mytechnotalent/Python-For-Kids/master/Python%20For%20Kids.jpg)
+
 # Python For Kids
 A comprehensive Python Development tutorial FOR KIDS utilizing a micro:bit Development Board going step-by-step into the world of Python for Microcontrollers.
 
