@@ -43,8 +43,8 @@ This tutorial will step-by-step code a FUN song making program where our little 
 
 -> COMING SOON
 
-## Lesson 9: Python For Kids (Part 9: FUN With Talking Robots
-This tutorial will step-by-step code a FUN robot talking program where our little microcontroller will talk to his new friend. 
+## Lesson 9: Python For Kids (Part 9: FUN With Talking Robots)
+This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will talk so us using his voice. 
 
 -> COMING SOON
 
