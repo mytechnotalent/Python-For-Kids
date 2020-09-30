@@ -41,7 +41,7 @@ This tutorial will step-by-step code a FUN program where we will work with word 
 ## Lesson 8: Python For Kids (Part 8: FUN With Music)
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-8-fun-music-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 9: Python For Kids (Part 9: FUN With Talking Robots)
 This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will respond to us using his voice. 
