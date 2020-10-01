@@ -1,7 +1,7 @@
 ![image](https://raw.githubusercontent.com/mytechnotalent/Python-For-Kids/master/Python%20For%20Kids.jpg)
 
 # Python For Kids
-A comprehensive Python Development tutorial FOR KIDS utilizing an official BBC micro:bit Development Board going step-by-step into the world of Python for microcontrollers.
+A comprehensive and FREE Online Python Development course FOR KIDS utilizing an official BBC micro:bit Development Board going step-by-step into the world of Python for microcontrollers.
 
 ## Lesson 1: Python For Kids (Part 1: Goals)
 This tutorial will begin with the basic concepts of why kids should learn to program in Python.
