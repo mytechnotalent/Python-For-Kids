@@ -53,7 +53,7 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 ## Lesson 10: Python For Kids (Part 10: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
 This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-10-dozens-free-additional-lessons-online-thomas/) to read the article on LinkedIn.
 
 ## INTERMEDIATE COURSE (Expressif ESP32 Development Board)
 
