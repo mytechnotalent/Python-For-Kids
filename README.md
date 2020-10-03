@@ -1,7 +1,9 @@
 ![image](https://raw.githubusercontent.com/mytechnotalent/Python-For-Kids/master/Python%20For%20Kids.jpg)
 
 # Python For Kids
-A comprehensive Python Development tutorial FOR KIDS utilizing a micro:bit Development Board going step-by-step into the world of Python for Microcontrollers.
+A comprehensive and FREE Online Python Development course FOR KIDS utilizing an official BBC micro:bit Development Board and later an Expressif ESP32 Development Board going step-by-step into the world of Python for microcontrollers.
+
+## BEGINNER COURSE (BBC micro:bit Development Board)
 
 ## Lesson 1: Python For Kids (Part 1: Goals)
 This tutorial will begin with the basic concepts of why kids should learn to program in Python.
@@ -38,18 +40,22 @@ This tutorial will step-by-step code a FUN program where we will work with word 
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-7-fun-word-lists-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 8: Python For Kids (Part 8: FUN With Sounds)
-This tutorial will step-by-step code a FUN sound making program where our little microcontroller will make various sounds to his new friend. 
-
--> COMING SOON
-
-## Lesson 9: Python For Kids (Part 9: FUN With Songs)
+## Lesson 8: Python For Kids (Part 8: FUN With Music)
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
 
--> COMING SOON
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-8-fun-music-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 10: Python For Kids (Part 10: FUN With Talking Robots
-This tutorial will step-by-step code a FUN robot talking program where our little microcontroller will talk to his new friend. 
+## Lesson 9: Python For Kids (Part 9: FUN With Talking Robots)
+This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will respond to us using his voice. 
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-9-fun-talking-robots-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 10: Python For Kids (Part 10: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
+This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-10-dozens-free-additional-lessons-online-thomas/) to read the article on LinkedIn.
+
+## INTERMEDIATE COURSE (Expressif ESP32 Development Board)
 
 -> COMING SOON
 
