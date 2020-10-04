@@ -55,9 +55,12 @@ This tutorial will get you connected to a FREE additional series of step-by-step
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-10-dozens-free-additional-lessons-online-thomas/) to read the article on LinkedIn.
 
-## INTERMEDIATE COURSE (Expressif ESP32 Development Board)
+## INTERMEDIATE COURSE (MicroPython FREE Web Development Environment & Expressif ESP32 Development Board [OPTIONAL])
 
--> COMING SOON
+## Lesson 11: Python For Kids (Part 11: Goals)
+This tutorial will begin with the basic concepts of why kids and young adults should take the next steps toward learning Python as it relates to microcontrollers.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-11-goals-kevin-thomas/) to read the article on LinkedIn.
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
