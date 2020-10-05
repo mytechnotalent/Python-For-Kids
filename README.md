@@ -66,6 +66,11 @@ This tutorial will begin with the basic concepts of why kids and young adults sh
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-11-goals-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 12: Python For Kids (Part 12: "Hello World")
+This tutorial will step-by-step code our first program with CORE Python!
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-12-hello-world-kevin-thomas/) to read the article on LinkedIn.
+
 <br>
 
 ## License
