@@ -59,7 +59,7 @@ This tutorial will get you connected to a FREE additional series of step-by-step
 
 <br>
 
-## INTERMEDIATE COURSE (Expressif ESP32 Development Board [OPTIONAL])
+## INTERMEDIATE COURSE (FREE Mu IDE)
 
 ## Lesson 11: Python For Kids (Part 11: Goals)
 This tutorial will begin with the basic concepts of why kids and young adults should take the next steps toward learning Python as it relates to microcontrollers.
