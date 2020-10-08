@@ -76,7 +76,6 @@ This tutorial will step-by-step code debugging our first program with CORE Pytho
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-13-debugging-hello-world-kevin-thomas/) to read the article on LinkedIn.
 
-
 <br>
 
 ## License
