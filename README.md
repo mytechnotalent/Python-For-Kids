@@ -72,9 +72,14 @@ This tutorial will step-by-step code our first program with CORE Python!
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-12-hello-world-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 13: Python For Kids (Part 13: Debugging "Hello World")
-This tutorial will step-by-step code debugging our first program with CORE Python!
+This tutorial will step-by-step debug our first program with CORE Python!
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-13-debugging-hello-world-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 14: Python For Kids (Part 14: I/O)
+This tutorial will step-by-step learn basic input and output with CORE Python!
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-14-io-kevin-thomas) to read the article on LinkedIn.
 
 <br>
 
