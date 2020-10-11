@@ -57,7 +57,7 @@ This tutorial will get you connected to a FREE additional series of step-by-step
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-10-dozens-free-additional-lessons-online-thomas/) to read the article on LinkedIn.
 
-<br>
+<br> 
 
 ## INTERMEDIATE COURSE (FREE Mu IDE)
 
