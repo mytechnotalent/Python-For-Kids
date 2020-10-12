@@ -77,9 +77,14 @@ This tutorial will step-by-step debug our first program with CORE Python!
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-13-debugging-hello-world-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 14: Python For Kids (Part 14: I/O)
-This tutorial will step-by-step learn basic input and output with CORE Python!
+This tutorial will step-by-step learn basic input and output.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-14-io-kevin-thomas) to read the article on LinkedIn.
+
+## Lesson 15: Python For Kids (Part 15: Debugging I/O)
+This tutorial will step-by-step debug basic input and output.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-15-debugging-io-kevin-thomas/) to read the article on LinkedIn.
 
 <br>
 
