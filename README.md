@@ -86,7 +86,7 @@ This tutorial will step-by-step debug basic input and output.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-15-debugging-io-kevin-thomas/) to read the article on LinkedIn.
 
-<br> 
+<br>
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
