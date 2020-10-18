@@ -86,6 +86,11 @@ This tutorial will step-by-step debug basic input and output.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-15-debugging-io-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 16: Python For Kids (Part 16: "The Universal Language")
+This tutorial will talk about the universal language that connects us all.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-16-universal-language-kevin-thomas/) to read the article on LinkedIn.
+
 <br>
 
 ## License
