@@ -3,7 +3,7 @@
 # Python For Kids
 A comprehensive and FREE Online Python Development course FOR KIDS utilizing an official BBC micro:bit Development Board and later an Expressif ESP32 Development Board going step-by-step into the world of Python for microcontrollers.
 
-<br> 
+<br>
 
 ## BEGINNER COURSE (BBC micro:bit Development Board)
 
