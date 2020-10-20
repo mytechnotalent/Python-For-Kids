@@ -22,8 +22,8 @@ This tutorial will step-by-step code our first program to have our little microc
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-3-hello-world-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 4: Python For Kids (Part 4: FUN With Gestures)
-This tutorial will step-by-step code a FUN gesture making program where our little microcontroller will make various faces to his new friend.
+## Lesson 4: Python For Kids (Part 4: FUN With Images)
+This tutorial will step-by-step code a FUN image making program where our little microcontroller will make various faces to his new friend.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-4-fun-gestures-kevin-thomas/) to read the article on LinkedIn.
 
