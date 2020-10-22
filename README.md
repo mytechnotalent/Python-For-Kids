@@ -91,6 +91,11 @@ This tutorial will talk about the universal language that connects us all.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-16-universal-language-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 17: Python For Kids (Part 17: Intro To Numbers)
+This tutorial will discuss an intro to numbers and number systems.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-17-intro-numbers-kevin-thomas/) to read the article on LinkedIn.
+
 <br>
 
 ## License
