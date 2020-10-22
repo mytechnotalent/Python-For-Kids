@@ -96,6 +96,11 @@ This tutorial will discuss an intro to numbers and number systems.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-17-intro-numbers-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 18: Python For Kids (Part 18: Binary Number System)
+This tutorial will discuss an intro to the Binary number system.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-18-binary-number-system-kevin-thomas/) to read the article on LinkedIn.
+
 <br>
 
 ## License
