@@ -101,6 +101,11 @@ This tutorial will discuss an intro to the Binary number system.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-18-binary-number-system-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 19: Python For Kids (Part 19: Hexadecimal Number System)
+This tutorial will discuss an intro to the Hexadecimal number system.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-19-hexadecimal-number-system-kevin-thomas/) to read the article on LinkedIn.
+
 <br>
 
 ## License
