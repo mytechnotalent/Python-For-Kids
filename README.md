@@ -106,6 +106,11 @@ This tutorial will discuss an intro to the Hexadecimal number system.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-19-hexadecimal-number-system-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 20: Python For Kids (Part 20: Primitive Data Types)
+This tutorial will discuss an intro to primitive data types.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-20-primitive-data-types-kevin-thomas/) to read the article on LinkedIn
+
 <br>
 
 ## License
