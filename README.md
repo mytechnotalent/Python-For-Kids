@@ -111,6 +111,11 @@ This tutorial will discuss an intro to primitive data types.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-20-primitive-data-types-kevin-thomas/) to read the article on LinkedIn
 
+## Lesson 21: Python For Kids (Part 21: Integer Primitive Data Type)
+This tutorial will discuss the integer primitive data type.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-21-integer-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+
 <br>
 
 ## License
