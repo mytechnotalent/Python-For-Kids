@@ -121,7 +121,7 @@ This tutorial will discuss the float primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-float-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
 
-## Lesson 23: Python For Kids (Part 22: String Primitive Data Type)
+## Lesson 23: Python For Kids (Part 23: String Primitive Data Type)
 This tutorial will discuss the string primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-string-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
