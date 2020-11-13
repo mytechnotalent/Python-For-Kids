@@ -126,6 +126,11 @@ This tutorial will discuss the string primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-string-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
 
+## Lesson 24: Python For Kids (Part 24: Bool Primitive Data Type)
+This tutorial will discuss the bool primitive data type.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-24-bool-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+
 <br>
 
 ## License
