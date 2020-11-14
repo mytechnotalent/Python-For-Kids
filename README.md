@@ -131,6 +131,11 @@ This tutorial will discuss the bool primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-24-bool-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
 
+## Lesson 25: Python For Kids (Part 25: Bytes Primitive Data Type)
+This tutorial will discuss the bytes primitive data type.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-25-bytes-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+
 <br>
 
 ## License
