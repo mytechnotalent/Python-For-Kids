@@ -5,6 +5,8 @@ A comprehensive and FREE Online Python Development course FOR KIDS utilizing an 
 
 <br>
 
+PROMOTIONAL VIDEO ![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=b4V13Lvk_jM)](https://www.youtube.com/watch?v=v=b4V13Lvk_jM)
+
 ## BEGINNER COURSE (BBC micro:bit Development Board)
 
 ## Lesson 1: Python For Kids (Part 1: Goals)
