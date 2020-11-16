@@ -162,6 +162,17 @@ This is an advanced tutorial for the official BBC micro:bit V2 where we create a
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Create Python Module V1
+This repo will teach you step-by-step how to build and freeze custom Python modules into the BBC micro:bit V1 fork of MicroPython. If you are an educator and want to develop custom modules you can include in the firmware this tutorial is for you.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module_V1) to read the tutorial on GitHub.
+
+## MicroPython micro:bit - Talking Heads Or Tails
+This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 where you play with get to play with our little talking friend!
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails) to read the tutorial on GitHub.
+
+
 
 
 <br>
