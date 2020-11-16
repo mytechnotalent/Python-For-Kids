@@ -117,34 +117,51 @@ This tutorial will discuss an intro to the Hexadecimal number system.
 ## Lesson 20: Python For Kids (Part 20: Primitive Data Types)
 This tutorial will discuss an intro to primitive data types.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-20-primitive-data-types-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-20-primitive-data-types-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 21: Python For Kids (Part 21: Integer Primitive Data Type)
 This tutorial will discuss the integer primitive data type.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-21-integer-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-21-integer-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 22: Python For Kids (Part 22: Float Primitive Data Type)
 This tutorial will discuss the float primitive data type.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-float-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-float-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 23: Python For Kids (Part 23: String Primitive Data Type)
 This tutorial will discuss the string primitive data type.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-string-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-22-string-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 24: Python For Kids (Part 24: Bool Primitive Data Type)
 This tutorial will discuss the bool primitive data type.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-24-bool-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-24-bool-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 25: Python For Kids (Part 25: Bytes Primitive Data Type)
 This tutorial will discuss the bytes primitive data type.
 
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-25-bytes-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-25-bytes-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
 <br>
+
+## MICROPYTHON FIRMWARE DEVELOPMENT COURSE (FREE Thonny IDE)
+
+## Lesson 1: MicroPython Firmware Development (Part 1: Goals)
+This tutorial will begin with the basic concepts of MicroPython Firmware Development.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-firmware-development-part-1-goals-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 2: MicroPython Firmware Development (Part 2: "The Why...")
+This tutorial will inspire you to get started developing embedded microcontrollers with NO EXPERIENCE REQUIRED and discuss some of the reasons why now more than ever is the right time to dive in!
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-firmware-development-part-2-why-kevin-thomas/) to read the article on LinkedIn.
+
+
+
+<br>
+
 
 ## MICROPYTHON EDUCATIONAL RESOURCES
 
