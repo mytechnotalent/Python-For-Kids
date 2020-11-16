@@ -5,11 +5,15 @@ A comprehensive and FREE Online Python Development course FOR KIDS utilizing an 
 
 <br> 
 
-# PROMOTIONAL VIDEO - WATCH NOW [HERE](https://www.youtube.com/watch?v=b4V13Lvk_jM)
+## PROMOTIONAL VIDEO - WATCH NOW [HERE](https://www.youtube.com/watch?v=b4V13Lvk_jM) ON YOUTUBE
 
 <br>
 
-## BEGINNER COURSE (BBC micro:bit Development Board)
+## BEGINNER COURSE (BBC micro:bit V2 Development Board) - COMING SOON
+
+<br>
+
+## BEGINNER COURSE (BBC micro:bit V1 Development Board)
 
 ## Lesson 1: Python For Kids (Part 1: Goals)
 This tutorial will begin with the basic concepts of why kids should learn to program in Python.
@@ -141,6 +145,9 @@ This tutorial will discuss the bytes primitive data type.
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-25-bytes-primitive-data-type-kevin-thomas/) to read the article on LinkedIn
 
 <br>
+
+## MicroPython Educational Resources
+
 
 ## License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
