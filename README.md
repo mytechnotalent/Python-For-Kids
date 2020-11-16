@@ -213,6 +213,11 @@ An MFRC522 device driver library for MicroPython.
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython_MFRC522) to read the tutorial on GitHub.
 
+## MicroPython - Music
+A repo that provides a music module to MicroPython to allow makers to create music within their projects using PWM.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_Music) to read the tutorial on GitHub.
+
 ## MicroPython IoT Thermometer
 A fun IoT Thermometer which uses an MPU6050 temperature, accelerometer and gyroscope sensor which interfaces with the Adafruit IO in the cloud!
 
@@ -222,17 +227,6 @@ A fun IoT Thermometer which uses an MPU6050 temperature, accelerometer and gyros
 A fun IoT RFID project which uses an MFRC522 RFID read and write sensor which interfaces with the Adafruit IO in the cloud!
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython_IoT_RFID_Reader) to read the tutorial on GitHub.
-
-
-
-
-
-## MicroPython - Music
-A repo that provides a music module to MicroPython to allow makers to create music within their projects using PWM.
-
--> Click [HERE](https://github.com/mytechnotalent/MicroPython_Music) to read the tutorial on GitHub.
-
-
 
 <br>
 
@@ -278,7 +272,52 @@ This repo adds a chatbot MOD to the official BBC micro:bit V1 fork of MicroPytho
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Friend_MOD_V1) to read the tutorial on GitHub.
 
+<br>
 
+## CIRCUITPYTHON EDUCATIONAL RESOURCES
+
+## CircuitPython Unittest
+A repo that provides the MP-Lib unittest.py to CircuitPython to allow makers to take full advantage of Python's unittest within CircuitPython.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_Unittest) to read the tutorial on GitHub.
+
+## CircuitPython: Frozen Boot w/ No REPL
+This repo provides a brief tutorial on how to set up CircuitPython to boot and run a single or series of modules that are frozen into the firmware in addition to disabling the REPL. This can be useful if you have a project that you do not want to allow a user to mod a boot.py or code.py on the file system and have the entire application frozen into the firmware in addition to removing the REPL to keep a user from examining the internals of the firmware. This is an advanced usage of CircuitPython and this repo is designed to help a developer with a workflow to provide some basic security if your application calls for such a feature. This simply provides a first step to security as it is the sole responsibility of the developer to take the next steps to build on this design specifically for their IoT application.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_Frozen_Boot_No_REPL) to read the tutorial on GitHub.
+
+## CircuitPython BlinkaBot
+A fun programmable chatbot where you interface with it using the Bluefruit Connect app (Android & iOS) and communicate with a Circuit Playground Bluefruit microcontroller.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_BlinkaBot) to read the tutorial on GitHub.
+
+## CircuitPython IoT Trivia ESP32-S2 OLED Version - IN DEVEOPMENT
+An IoT Trivia app that shows you how to take a JSON web API such as the opentdb.com API and stream and display it on a FeatherS2 in an OLED display.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Trivia)
+
+## CircuitPython IoT Streaming Data ESP32-S2 (REPL Version)
+An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on a Metro ESP32-S2.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data_ESP32-S2_REPL_Version) to read the tutorial on GitHub.
+
+## CircuitPython IoT Streaming Data ESP32-S2 OLED Version
+An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on a Metro ESP32-S2 in an OLED display.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data_ESP32-S2_OLED_Version) to read the tutorial on GitHub.
+
+
+
+
+## CircuitPython IoT Streaming Data
+An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on an Adafruit PyPortal or an Adafruit PyPortal Pynt.
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data) to read the tutorial on GitHub.
+
+## CircuitPython IoT Thermometer
+A fun IoT Thermometer which uses a DHT11 temperature and humidity sensor and interfaces with the Adafruit IO in the cloud!
+
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Thermometer) to read the tutorial on GitHub.
 
 <br>
 
