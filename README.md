@@ -177,11 +177,20 @@ This is a FUN talking BuildaBot for the official BBC micro:bit V2 where you get 
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_BuildaBot) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking TODOBot
+This is a FUN talking TODOBot for the official BBC micro:bit V2.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_TODOBot) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - Talking Heads Or Tails
 This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 where you play with get to play with our little talking friend!
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Friend MOD V1
+This repo adds a chatbot MOD to the official BBC micro:bit V1 fork of MicroPython. The firmware is included in addition to the source code if you would like to modify for your own educational needs.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Friend_MOD_V1) to read the tutorial on GitHub.
 
 
 
