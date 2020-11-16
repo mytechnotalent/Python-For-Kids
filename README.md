@@ -7,6 +7,9 @@ A comprehensive and FREE Online Python Development course FOR KIDS utilizing an 
 
 ## PROMOTIONAL VIDEO - WATCH NOW [HERE](https://www.youtube.com/watch?v=b4V13Lvk_jM) ON YOUTUBE
 
+[![Watch the video](https://raw.githubusercontent.com/mytechnotalent/Python-For-Kids/master/Python%20For%20Kids.jpg)](https://www.youtube.com/watch?v=b4V13Lvk_jM)
+
+
 <br>
 
 ## BEGINNER COURSE (BBC micro:bit V2 Development Board) - COMING SOON
