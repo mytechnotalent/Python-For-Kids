@@ -146,16 +146,18 @@ This tutorial will discuss the bytes primitive data type.
 
 <br>
 
-## MicroPython Educational Resources
+## MICROPYTHON EDUCATIONAL RESOURCES
 
 <br>
 
-## MicroPython micro:bit Educational Resources
+## MICROPYTHON micro:bit EDUCATIONAL RESOURCES
 
-## MicroPython-micro-bit Create Python Module
+## MicroPython micro:bit Create Python Module
 This is an advanced tutorial for the official BBC micro:bit V2 where we create a custom interactive talking statecapital.py module and freeze this custom Python educational chatbot into the firmware where students interact with the bot in the Python REPL to help them learn the respective capitol to each of the 50 states.
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module) to read the tutorial on GitHub.
+
+
 
 <br>
 
