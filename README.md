@@ -196,8 +196,43 @@ This tutorial will focus on the concept of data types.
 
 <br>
 
-
 ## MICROPYTHON EDUCATIONAL RESOURCES
+
+## MicroPython: Frozen Boot w/ No REPL
+This repo provides a brief tutorial on how to set up MicroPython to boot and run a single or series of modules that are frozen into the firmware in addition to disabling the REPL. This can be useful if you have a project that you do not want to allow a user to mod a boot.py or main.py on the file system and have the entire application frozen into the firmware in addition to removing the REPL to keep a user from examining the internals of the firmware. This is an advanced usage of MicroPython and this repo is designed to help a developer with a workflow to provide some basic security if your application calls for such a feature. This simply provides a first step to security as it is the sole responsibility of the developer to take the next steps to build on this design specifically for their IoT application.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_Frozen_Boot_No_REPL) to read the tutorial on GitHub.
+
+## MicroPython - MPU6050
+An MPU6050 device driver library for MicroPython.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_MPU6050) to read the tutorial on GitHub.
+
+## MicroPython - MFRC522
+An MFRC522 device driver library for MicroPython.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_MFRC522) to read the tutorial on GitHub.
+
+## MicroPython IoT Thermometer
+A fun IoT Thermometer which uses an MPU6050 temperature, accelerometer and gyroscope sensor which interfaces with the Adafruit IO in the cloud!
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_IoT_Thermometer) to read the tutorial on GitHub.
+
+## MicroPython IoT RFID Reader
+A fun IoT RFID project which uses an MFRC522 RFID read and write sensor which interfaces with the Adafruit IO in the cloud!
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_IoT_RFID_Reader) to read the tutorial on GitHub.
+
+
+
+
+
+## MicroPython - Music
+A repo that provides a music module to MicroPython to allow makers to create music within their projects using PWM.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython_Music) to read the tutorial on GitHub.
+
+
 
 <br>
 
