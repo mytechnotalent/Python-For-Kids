@@ -146,7 +146,7 @@ This tutorial will discuss the bytes primitive data type.
 
 <br>
 
-## MICROPYTHON FIRMWARE DEVELOPMENT COURSE (FREE Thonny IDE)
+## MICROPYTHON FIRMWARE DEVELOPMENT COURSE (FREE Thonny IDE) - GITHUB REPO [HERE](https://github.com/mytechnotalent/MicroPython-Firmware-Development)
 
 ## Lesson 1: MicroPython Firmware Development (Part 1: Goals)
 This tutorial will begin with the basic concepts of MicroPython Firmware Development.
