@@ -152,7 +152,12 @@ This tutorial will discuss the bytes primitive data type.
 
 ## MICROPYTHON micro:bit EDUCATIONAL RESOURCES
 
-## MicroPython micro:bit - Create C Module
+## MicroPython micro:bit - MOD C Library
+This is an advanced tutorial for the official BBC micro:bit V2 where we mod the C modmicrobit.c library and add a custom C function frozen into the firmware where users interact with this functionality in the Python REPL.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_MOD_C_Library) to read the tutorial on GitHub.
+
+## MicroPython micro:bit - Create C Library
 This is an advanced tutorial for the official BBC micro:bit V2 where we create a custom C musictheory.c library and add custom C functions frozen into the firmware where users interact with this functionality in the Python REPL.
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_C_Library) to read the tutorial on GitHub.
@@ -166,6 +171,11 @@ This is an advanced tutorial for the official BBC micro:bit V2 where we create a
 This repo will teach you step-by-step how to build and freeze custom Python modules into the BBC micro:bit V1 fork of MicroPython. If you are an educator and want to develop custom modules you can include in the firmware this tutorial is for you.
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module_V1) to read the tutorial on GitHub.
+
+## MicroPython micro:bit - Talking BuildaBot
+This is a FUN talking BuildaBot for the official BBC micro:bit V2 where you get to build your VERY OWN TALKING BOT FROM SCRATCH!
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_BuildaBot) to read the tutorial on GitHub.
 
 ## MicroPython micro:bit - Talking Heads Or Tails
 This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 where you play with get to play with our little talking friend!
