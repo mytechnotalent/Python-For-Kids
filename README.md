@@ -232,6 +232,11 @@ A fun IoT RFID project which uses an MFRC522 RFID read and write sensor which in
 
 ## MICROPYTHON micro:bit EDUCATIONAL RESOURCES
 
+## MicroPython-micro-bit - Study Buddy
+The micro:bit Study Buddy is a micro:bit Electronic Educational Engagement Tool designed to help students learn a new classroom subject with the assistance of a micro:bit TED (Talking Educational Database) and a micro:bit TEQ (Talking Educational Quiz).
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Study_Buddy) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - MOD C Library
 This is an advanced tutorial for the official BBC micro:bit V2 where we mod the C modmicrobit.c library and add a custom C function frozen into the firmware where users interact with this functionality in the Python REPL.
 
