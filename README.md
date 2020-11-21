@@ -35,7 +35,7 @@ This tutorial will step-by-step code a FUN image making program where our little
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-4-fun-gestures-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 5: Python For Kids (Part 5: FUN With Numbers)
+## Lesson 5: Python For Kids (Part 5: FUN With Numbers) 
 This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-5-fun-numbers-kevin-thomas/) to read the article on LinkedIn.
