@@ -9,7 +9,12 @@ A comprehensive and FREE Online Python Development course FOR KIDS utilizing an 
 
 <br>
 
-## BEGINNER COURSE (BBC micro:bit V2 Development Board) - COMING SOON
+## BEGINNER COURSE (BBC micro:bit V2 Development Board) - IN DEVELOPMENT
+
+## Lesson 1: Python For Kids V2 (Part 1: Goals)
+This tutorial will begin with the basic concepts of why kids should learn to program in Python.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-v2-part-1-goals-kevin-thomas/) to read the article on LinkedIn.
 
 <br>
 
