@@ -16,6 +16,16 @@ This tutorial will begin with the basic concepts of why kids should learn to pro
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-v2-part-1-goals-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 2: Python For Kids V2 (Part 2: "Hello World")
+This tutorial will step-by-step code our first program to have our little microcontroller say hello to the world!
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-v2-part-2-hello-world-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 3: Python For Kids (Part 3: FUN With Images)
+This tutorial will step-by-step code a FUN image making program where our little microcontroller will make various faces to his new friend.
+
+-> Click [HERE]() to read the article on LinkedIn.
+
 <br>
 
 ## BEGINNER COURSE (BBC micro:bit V1 Development Board)
