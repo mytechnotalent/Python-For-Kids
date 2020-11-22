@@ -29,17 +29,17 @@ This tutorial will step-by-step code a FUN image making program where our little
 ## Lesson 4: Python For Kids V2 (Part 4: FUN With Numbers) 
 This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-4-python-kids-v2-part-fun-numbers-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 5: Python For Kids V2 (Part 5: FUN With Words)
 This tutorial will step-by-step code a FUN program where we will work with words and learn about how to make variables with them. 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-5-python-kids-v2-part-fun-words-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 6: Python For Kids V2 (Part 6: FUN With Word Lists)
 This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-6-python-kids-v2-part-fun-word-lists-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 7: Python For Kids V2 (Part 7: FUN With Music)
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
