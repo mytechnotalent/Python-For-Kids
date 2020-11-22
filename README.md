@@ -24,6 +24,11 @@ This tutorial will step-by-step code our first program to have our little microc
 ## Lesson 3: Python For Kids (Part 3: FUN With Images)
 This tutorial will step-by-step code a FUN image making program where our little microcontroller will make various faces to his new friend.
 
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-3-python-kids-part-fun-images-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 4: Python For Kids (Part 4: FUN With Numbers) 
+This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
+
 -> Click [HERE]() to read the article on LinkedIn.
 
 <br>
