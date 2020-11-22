@@ -44,17 +44,17 @@ This tutorial will step-by-step code a FUN program where we will work with word 
 ## Lesson 7: Python For Kids V2 (Part 7: FUN With Music)
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-7-python-kids-v2-part-fun-music-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 8: Python For Kids V2 (Part 8: FUN With Talking Robots)
 This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will respond to us using his voice. 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-8-python-kids-v2-part-fun-talking-robots-kevin-thomas/) to read the article on LinkedIn.
 
 ## Lesson 9: Python For Kids (Part 9: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
 This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
 
--> Click [HERE]() to read the article on LinkedIn.
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-9-dozens-free-additional-lessons-online-kevin-thomas/) to read the article on LinkedIn.
 
 <br>
 
