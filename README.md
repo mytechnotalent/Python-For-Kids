@@ -51,7 +51,7 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 
 -> Click [HERE](https://www.linkedin.com/pulse/lesson-8-python-kids-v2-part-fun-talking-robots-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 9: Python For Kids (Part 9: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
+## Lesson 9: Python For Kids V2 (Part 9: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
 This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-9-dozens-free-additional-lessons-online-kevin-thomas/) to read the article on LinkedIn.
