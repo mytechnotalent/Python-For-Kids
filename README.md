@@ -189,6 +189,13 @@ This tutorial will discuss the bytes primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-25-bytes-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
+## Lesson 26: Python For Kids (Part 26: Bytearray Primitive Data Type)
+This tutorial will discuss the bytearray primitive data type.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-26-bytearray-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 27: COMING SOON!
+
 <br>
 
 ## MICROPYTHON FIRMWARE DEVELOPMENT COURSE (FREE Thonny IDE)
@@ -238,6 +245,8 @@ This tutorial will focus on the concept of variables in Python.
 This tutorial will focus on the concept of data types.
 
 -> Click [HERE](https://www.linkedin.com/pulse/micropython-firmware-development-part-9-intro-data-types-thomas/) to read the article on LinkedIn.
+
+## Lesson 10: COMING SOON!
 
 <br>
 
