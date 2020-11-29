@@ -326,6 +326,11 @@ This is a FUN talking Heads Or Tails game for the official BBC micro:bit V2 wher
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Heads_Or_Tails) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking LED Blink
+The micro:bit Talking LED Blink is a micro:bit Electronic Educational Engagement Tool designed to help students create a talking LED blink application.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_LED_Blink) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - Friend MOD V1
 This repo adds a chatbot MOD to the official BBC micro:bit V1 fork of MicroPython. The firmware is included in addition to the source code if you would like to modify for your own educational needs.
 
