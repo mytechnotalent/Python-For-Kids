@@ -355,7 +355,7 @@ A fun programmable chatbot where you interface with it using the Bluefruit Conne
 
 -> Click [HERE](https://github.com/mytechnotalent/CircuitPython_BlinkaBot) to read the tutorial on GitHub.
 
-## CircuitPython IoT Trivia ESP32-S2 OLED Version - IN DEVEOPMENT
+## CircuitPython IoT Trivia ESP32-S2 OLED Version
 An IoT Trivia app that shows you how to take a JSON web API such as the opentdb.com API and stream and display it on a FeatherS2 in an OLED display.
 
 -> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Trivia)
