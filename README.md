@@ -358,7 +358,7 @@ A fun programmable chatbot where you interface with it using the Bluefruit Conne
 ## CircuitPython IoT Trivia ESP32-S2 OLED Version
 An IoT Trivia app that shows you how to take a JSON web API such as the opentdb.com API and stream and display it on a FeatherS2 in an OLED display.
 
--> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Trivia)
+-> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Trivia) to read the tutorial on GitHub.
 
 ## CircuitPython IoT Streaming Data ESP32-S2 (REPL Version)
 An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on a Metro ESP32-S2.
