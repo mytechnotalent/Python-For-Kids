@@ -297,6 +297,11 @@ The micro:bit Talking LED Blink is a micro:bit Electronic Educational Engagement
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_LED_Blink) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking Breath
+The micro:bit Talking LED Breath is a micro:bit Electronic Educational Engagement Tool designed to help students create a talking breath application.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Breath) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - Friend MOD V1
 This repo adds a chatbot MOD to the official BBC micro:bit V1 fork of MicroPython. The firmware is included in addition to the source code if you would like to modify for your own educational needs.
 
@@ -369,9 +374,6 @@ An IoT Streaming Data app that shows you how to take a JSON web API such as the 
 An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on a Metro ESP32-S2 in an OLED display.
 
 -> Click [HERE](https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data_ESP32-S2_OLED_Version) to read the tutorial on GitHub.
-
-
-
 
 ## CircuitPython IoT Streaming Data
 An IoT Streaming Data app that shows you how to take a JSON web API such as the FREE Hacker News API and stream and display it on an Adafruit PyPortal or an Adafruit PyPortal Pynt.
