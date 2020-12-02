@@ -302,6 +302,11 @@ The micro:bit Talking LED Breath is a micro:bit Electronic Educational Engagemen
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Breath) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking Blink And Breath
+The micro:bit Talking LED Blink And Breath is a micro:bit Electronic Educational Engagement Tool designed to help students create a talking blink and breath application.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_Blink_And_Breath) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - Friend MOD V1
 This repo adds a chatbot MOD to the official BBC micro:bit V1 fork of MicroPython. The firmware is included in addition to the source code if you would like to modify for your own educational needs.
 
