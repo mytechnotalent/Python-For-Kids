@@ -277,6 +277,11 @@ This repo will teach you step-by-step how to build and freeze custom Python modu
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module_V1) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking TextaBot
+This is a FUN talking TextaBot for the official BBC micro:bit V2 where you get to build your VERY OWN TALKING TEXTABOT FROM SCRATCH!
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_TextaBot
+
 ## MicroPython micro:bit - Talking BuildaBot
 This is a FUN talking BuildaBot for the official BBC micro:bit V2 where you get to build your VERY OWN TALKING BOT FROM SCRATCH!
 
