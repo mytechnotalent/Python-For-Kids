@@ -194,7 +194,12 @@ This tutorial will discuss the bytearray primitive data type.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-26-bytearray-primitive-data-type-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 27: COMING SOON!
+## Lesson 27: Python For Kids (Part 27: Variables)
+This tutorial will discuss variables.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-26-variables-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 28: COMING SOON!
 
 <br>
 
