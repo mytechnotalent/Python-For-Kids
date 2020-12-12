@@ -203,6 +203,18 @@ This tutorial will discuss variables.
 
 <br>
 
+## MICROPYTON FOR MICRO:BIT (BBC micro:bit V2 Development Board)
+REPO [HERE](https://github.com/mytechnotalent/micropython_for_microbit)
+
+## Lesson 1: MicroPython For micro:bit (Part 1: Basic I/O)
+This tutorial will discuss MicroPython basic input and output for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-1-basic-io-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 2: COMING SOON!
+
+<br>
+
 ## MICROPYTHON FIRMWARE DEVELOPMENT COURSE (FREE Thonny IDE)
 REPO [HERE](https://github.com/mytechnotalent/MicroPython-Firmware-Development)
 
