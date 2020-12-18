@@ -294,6 +294,11 @@ This repo will teach you step-by-step how to build and freeze custom Python modu
 
 -> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Create_Python_Module_V1) to read the tutorial on GitHub.
 
+## MicroPython micro:bit - Talking ML
+This is a FUN talking IoT Talking ML for the BBC micro:bit V2 using the bitio module to interface with a TensorFlow Sentiment Analysis machine learning model in Python.
+
+-> Click [HERE](https://github.com/mytechnotalent/MicroPython-micro-bit_Talking_ML) to read the tutorial on GitHub.
+
 ## MicroPython micro:bit - Talking IoT Trivia
 This is a FUN talking IoT Talking Trivia game for the BBC micro:bit V2 using the bitio module to interface with a real RESTful Open-Source Trivia API over the internet.
 
