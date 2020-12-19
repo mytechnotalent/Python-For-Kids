@@ -211,7 +211,12 @@ This tutorial will discuss MicroPython basic input and output for the micro:bit 
 
 -> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-1-basic-io-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 2: COMING SOON!
+## Lesson 2: MicroPython For micro:bit (Part 2: DataTypes & Numbers)
+This tutorial will discuss MicroPython datatypes and numbers for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-2-datatypes-numbers-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 3: COMING SOON!
 
 <br>
 
