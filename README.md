@@ -216,7 +216,12 @@ This tutorial will discuss MicroPython datatypes and numbers for the micro:bit V
 
 -> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-2-datatypes-numbers-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 3: COMING SOON!
+## Lesson 3: MicroPython For micro:bit (Part 3: Conditional Logic)
+This tutorial will discuss MicroPython conditional logic and application flow chart design for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/lesson-3-micropython-microbit-part-conditional-logic-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 4: COMING SOON!
 
 <br>
 
