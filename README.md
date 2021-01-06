@@ -221,7 +221,12 @@ This tutorial will discuss MicroPython conditional logic and application flow ch
 
 -> Click [HERE](https://www.linkedin.com/pulse/lesson-3-micropython-microbit-part-conditional-logic-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 4: COMING SOON!
+## Lesson 4: MicroPython For micro:bit (Part 4: Lists, Tuples, Dictionaries & Loops)
+This tutorial will discuss MicroPython lists, tuples, dictionaries and loops for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-4-lists-dictionaries-loops-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 5: COMING SOON!
 
 <br>
 
