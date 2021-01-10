@@ -199,7 +199,12 @@ This tutorial will discuss variables.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-26-variables-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 28: COMING SOON!
+## Lesson 28: Python For Kids (Part 28: Mathematical Operations)
+This tutorial will discuss methematical operations.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-28-mathematical-operations-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 29: COMING SOON!
 
 <br>
 
