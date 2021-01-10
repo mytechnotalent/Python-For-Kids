@@ -226,7 +226,12 @@ This tutorial will discuss MicroPython lists, tuples, dictionaries and loops for
 
 -> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-4-lists-dictionaries-loops-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 5: COMING SOON!
+## Lesson 5: MicroPython For micro:bit (Part 5: Functions)
+This tutorial will discuss MicroPython functions for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-5-lists-tuples-dictionaries-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 6: COMING SOON!
 
 <br>
 
