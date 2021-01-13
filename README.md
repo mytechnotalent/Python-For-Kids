@@ -204,7 +204,12 @@ This tutorial will discuss methematical operations.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-28-mathematical-operations-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 29: COMING SOON!
+## Lesson 29: Python For Kids (Part 29: Conditional Logic)
+This tutorial will discuss conditional logic.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-29-conditional-logic-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 30: COMING SOON!
 
 <br>
 
