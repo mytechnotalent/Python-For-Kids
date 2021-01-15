@@ -214,7 +214,12 @@ This tutorial will discuss lists, tuples, dictionaries & loops.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-30-lists-tuples-dictionaries-loops-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 31: COMING SOON!
+## Lesson 31: Python For Kids (Part 31: Functions)
+This tutorial will discuss functions.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-31-functions-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 32: COMING SOON!
 
 <br>
 
