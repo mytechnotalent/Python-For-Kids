@@ -1,0 +1,24 @@
+Number Guessing Game Application Requirements
+---------------------------------------------
+1. Define the purpose of the application.
+   a. Create a game where a computer randomly chooses a number between
+      1 and 9.  The player will enter a choice and will get 3 guesses
+      and a hint with a short message indicating they are too high or
+      too low if they do not guess the right number.
+2. Define the rules of the application.
+   a. If the player guesses the number they win.
+   b. If the player does not guess the right number they get 3
+      hints and if they get it they win otherwise lose.
+3. Define the logical steps of the application.
+   a. Create a turns_left var and init to 3.
+   b. Create a guess_number function to obtain guess and return it.
+   c. Create a did_win function with params f_guess, f_correct_answer and
+      f_turns_left and it will return turns - 1 or a message to indicate a win.
+   d. Create a text intro explaining the game and rules.
+   e. Create an answer var and obtain a random number between 1 and 9.
+   f. Create a guess var and init to 0.
+   g. Create a game loop with logic to obtain a players guess and 
+      and logic to allow for a max of 3 turns and conditional
+      logic to check if they have run out of turns then display a message
+      they are out of turns and if there are turns left another message
+      to guess again.

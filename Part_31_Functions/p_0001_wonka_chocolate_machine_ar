@@ -1,0 +1,22 @@
+Wonka Chocolate Machine Firmware Requirements
+---------------------------------------------
+1. Define the purpose of the application.
+   a. Create firmware to drive the Wonka Chocolate machine and handle order selection,
+      cash collection, creation of the bars and handling for lack of raw materials.
+2. Define the logical steps of the firmware.
+   a. Create the data dictionaries for CHOCOLATE_CHOICES and raw_materials.
+   b. Create a total_money_collected var and init to 0.
+   c. Create a SHUTDOWN_PASSWORD and init to '8675309'.
+   d. Create has_raw_materials function to check if there are enough raw materials 
+      in the machine.
+   e. Create a collect_money function to collect money into the machine.
+   f. Create a has_enough_money function to check to see if customer put in
+      enough money into the machine.
+   g. Crete a bake_chocolate_bar function to bake chocolate bar from raw
+      materials.
+   h. Create a stats function to show machine statistics.
+   i. Create a machine_active var and init to True.
+   j. Create a choices list and add 'dark', 'caramel', 'mint', 'surprise',
+      'stats', and 'shutdown'.
+   k. Create main while loop to account for machine_active.  Handle input.  
+      Handle shutdown.  Handle stats.  Handle if valid choice.
