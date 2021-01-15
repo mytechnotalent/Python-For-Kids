@@ -209,7 +209,12 @@ This tutorial will discuss conditional logic.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-29-conditional-logic-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 30: COMING SOON!
+## Lesson 30: Python For Kids (Part 30: Lists, Tuples, Dictionaries & Loops)
+This tutorial will discuss lists, tuples, dictionaries & loops.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-30-lists-tuples-dictionaries-loops-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 31: COMING SOON!
 
 <br>
 
