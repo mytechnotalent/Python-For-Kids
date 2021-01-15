@@ -7,7 +7,7 @@ def guess_number():
     """Obtain player guess
 
     Returns:
-        int or False
+        int or str
     """
     try:
         f_guess = int(input('Guess: '))
@@ -27,7 +27,7 @@ def did_win(f_guess, f_correct_answer, f_turns_left):
         f_turns_left: int
 
     Returns:
-        int or False
+        int or str
     """
     if f_turns_left >= 1:
         if f_guess > f_correct_answer:
