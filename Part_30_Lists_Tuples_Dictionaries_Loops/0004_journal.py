@@ -1,6 +1,6 @@
 journal = [
     {
-        'entry': 'Today I started an amazing new journey with MicroPython!',
+        'entry': 'Today I started an amazing new journey with Python!',
         'date': '12/15/20',
     },
     {
