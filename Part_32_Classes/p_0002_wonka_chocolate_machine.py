@@ -69,9 +69,9 @@ class Machine:
     def __init__(self):
         """
         Attrs:
-            self.__money_collected: float
-            self.__total_money_collected: float
-            self.__price: float
+            __money_collected: float
+            __total_money_collected: float
+            __price: float
         """
         self.__money_collected = 0
         self.__total_money_collected = 0
@@ -150,7 +150,7 @@ class ChocolateMachine(Machine):
     def __init__(self, choices):
         """
         Attrs:
-            self.choices: str
+            choices: str
         """
         super().__init__()
         self.choices = choices
