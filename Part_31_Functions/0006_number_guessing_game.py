@@ -1,21 +1,24 @@
 from random import randint
 
-turns_left = 3
 
-
-def guess_number():
+def guess_number(f_guess, f_turns_left):
     """Obtain player guess
 
+    Params:
+        f_guess: int
+        f_turns_left: int
+
     Returns:
-        int or str
+        int, str
     """
     try:
-        f_guess = int(input('Guess: '))
         if f_guess < 1 or f_guess > 9:
             raise ValueError
-        return f_guess
+        return f_guess, f_turns_left - 1
     except ValueError:
-        return '\nRULES: Please enter a number between 1 and 9.'
+        return '\nRULES: Please enter a number between 1 and 9.', f_turns_left - 1
+    except TypeError:
+        return '\nRULES: Please enter a number between 1 and 9.', f_turns_left - 1
 
 
 def did_win(f_guess, f_correct_answer, f_turns_left):
@@ -27,7 +30,7 @@ def did_win(f_guess, f_correct_answer, f_turns_left):
         f_turns_left: int
 
     Returns:
-        int or str
+        str, int, None
     """
     if f_turns_left >= 1:
         if f_guess > f_correct_answer:
@@ -41,12 +44,17 @@ def did_win(f_guess, f_correct_answer, f_turns_left):
 print('RULES: Guess a number between 1 and 9.')
 
 correct_answer = randint(1, 9)
-
+turns_left = 3
 guess = 1
 
 while guess != correct_answer:
     if turns_left >= 1:
-        guess_response = guess_number()
+        guess = input('Guess: ')
+        guess_response, turns_left = guess_number(guess, turns_left)
+        if turns_left > 1:
+            print('{0} turns left.'.format(turns_left))
+        else:
+            print('{0} turn left.'.format(turns_left))
     else:
         print('The correct answer is {0}, let\'s play again!'.format(correct_answer))
         break
@@ -61,9 +69,3 @@ while guess != correct_answer:
                 break
             else:
                 print(game_status)
-
-    if guess and turns_left:
-        if turns_left > 1:
-            print('{0} turns left.\n'.format(turns_left))
-        else:
-            print('{0} turn left.\n'.format(turns_left))
