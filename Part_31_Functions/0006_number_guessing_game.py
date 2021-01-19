@@ -53,7 +53,7 @@ while guess != correct_answer:
         guess_response, turns_left = guess_number(guess, turns_left)
         if turns_left > 1:
             print('{0} turns left.'.format(turns_left))
-        else:
+        elif turns_left == 1:
             print('{0} turn left.'.format(turns_left))
     else:
         print('The correct answer is {0}, let\'s play again!'.format(correct_answer))
