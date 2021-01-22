@@ -50,6 +50,8 @@ if __name__ == '__main__':
                 print(game.correct_answer_response())
                 inventory = player.get_inventory(file_manager)
                 player.inventory.append(inventory)
+                if 'Red Key' in player.inventory:
+                    final_question = True
                 if 'Red Key' not in player.inventory and not final_question:
                     receive_red_key = game.generate_random_number(grid)
                     if receive_red_key == 2:
