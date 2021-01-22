@@ -50,7 +50,6 @@ if __name__ == '__main__':
                 print(game.correct_answer_response())
                 if 'Red Key' not in player.inventory and not final_question:
                     receive_red_key = game.generate_random_number(grid)
-                    print(receive_red_key)
                     if receive_red_key == 2:
                         print(player.pick_up_red_key(file_manager))
                         final_question = True
