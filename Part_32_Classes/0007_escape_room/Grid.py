@@ -57,15 +57,11 @@ class Grid:
         grid = top_wall + side_walls + bottom_wall + '\n'
         # Convert to a list so that the element can be mutable to add player char
         temp_grid = list(grid)
-        if player.dy == 1:
-            # No adjustment if on top row
-            y_adjustment = 0
-        else:
-            # For each step in y, needs to increment by jumps of row width plus the \n separating rows
-            y_adjustment = (player.dy - 1) * (self.led_width + 1)
+        # For each step in y, needs to increment by jumps of row width plus the \n separating rows
+        y_adjustment = (player.dy - 1) * (self.led_width + 1)
         # The index position of player marker in the list-formatted grid
         position = self.led_width + 1 + player.dx + y_adjustment
-        temp_grid[position] = '*'
+        temp_grid[position] = self.led_on
         grid = ''
         grid = grid.join(temp_grid)
         return grid
