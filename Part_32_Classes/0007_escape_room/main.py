@@ -10,11 +10,17 @@ file_manager = FileManager()
 game = Game()
 
 if __name__ == '__main__':
-    question_1 = False
+    player_location = None
+    response = None
     final_question = False
 
     while True:
-        game.update_ui(grid, player)
+        # To ensure we do not generate a question if the player is hitting a wall
+        # or not entering a valid move
+        previous_player_location = player_location
+        clear_screen, display_grid = game.update_ui(grid, player)
+        print(clear_screen)
+        print(display_grid)
         key = input('Enter A, D, W, S: ')
         if key == 'a':
             player_location = player.keyboard_a_press(grid)
@@ -25,40 +31,36 @@ if __name__ == '__main__':
         elif key == 's':
             player_location = player.keyboard_s_press(grid)
         else:
-            player_location = 1, 1
-
-        x, y = game.generate_random_numbers(grid)
-        if player_location == (x, y) and not question_1:
-            player.get_inventory(file_manager)
-            if 'Red Key' not in player.inventory:
-                response, correct_answer_index, correct_answer = game.ask_question()
-                if response == correct_answer_index:
-                    correct = game.correct_answer_response()
-                    print(correct)
-                    picked_up_red_key = player.pick_up_red_key(file_manager)
-                    print(picked_up_red_key)
-                    question_1 = True
+            pass
+        random_location = (x, y) = game.generate_random_numbers(grid)
+        if random_location == player_location and random_location != previous_player_location:
+            random_question, answer_1, answer_2, answer_3, correct_answer_index, correct_answer \
+                = game.ask_random_question()
+            print(random_question)
+            print('Press 1 for {0}.'.format(answer_1))
+            print('Press 2 for {0}.'.format(answer_2))
+            print('Press 3 for {0}.'.format(answer_3))
+            while True:
+                try:
+                    response = int(input('ENTER: '))
+                    break
+                except ValueError:
+                    print('Enter ONLY 1, 2 or 3!')
+            if response == correct_answer_index + 1:
+                print(game.correct_answer_response())
+                if 'Red Key' not in player.inventory and not final_question:
+                    receive_red_key = game.generate_random_number(grid)
+                    print(receive_red_key)
+                    print(type(receive_red_key))
+                    if receive_red_key == 2:
+                        print(player.pick_up_red_key(file_manager))
+                        final_question = True
+                    else:
+                        print(player.without_red_key())
+                elif final_question:
+                    print(game.win(file_manager))
                     sleep(3)
-                else:
-                    game.incorrect_answer_response(correct_answer)
-
-        x, y = game.generate_random_numbers(grid)
-        if player_location == (x, y) and not final_question:
-            player.get_inventory(file_manager)
-            response, correct_answer_index, correct_answer = game.ask_question()
-            if response == correct_answer_index:
-                correct = game.correct_answer_response()
-                print(correct)
-                final_question = True
-                sleep(3)
+                    break
             else:
-                correct_answer = game.incorrect_answer_response(correct_answer)
-                print(correct_answer)
-            if 'Red Key' in player.inventory and final_question:
-                win = game.win(file_manager)
-                print(win)
-                break
-            elif final_question:
-                without_red_key = player.without_red_key()
-                print(without_red_key)
-                sleep(3)
+                print(game.incorrect_answer_response(correct_answer))
+            sleep(3)

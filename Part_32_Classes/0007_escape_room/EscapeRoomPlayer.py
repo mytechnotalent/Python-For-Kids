@@ -1,4 +1,3 @@
-from time import sleep
 from Player import Player
 
 
@@ -18,17 +17,6 @@ class EscapeRoomPlayer(Player):
         """
         super().__init__(name, dx, dy, armour, inventory)
 
-    def reset_player_location(self):
-        """
-        Method to move an escape room player to init position after an incorrect answer
-
-        Returns:
-            int, int
-        """
-        self.dx = 1
-        self.dy = 1
-        return self.dx, self.dy
-
     def keyboard_a_press(self, grid):
         """
         Method to handle a keyboard a press
@@ -42,7 +30,6 @@ class EscapeRoomPlayer(Player):
         # If player is against the left wall do NOT allow them to go through it
         if self.dx != 1 and self.dx <= grid.available_width:
             self.move_west()
-        sleep(0.25)
         return self.dx, self.dy
 
     def keyboard_d_press(self, grid):
@@ -57,7 +44,6 @@ class EscapeRoomPlayer(Player):
         """
         if self.dx < grid.available_width:
             self.move_east()
-        sleep(0.25)
         return self.dx, self.dy
 
     def keyboard_w_press(self, grid):
@@ -73,7 +59,6 @@ class EscapeRoomPlayer(Player):
         # If badge player is against the top wall do NOT allow them to go through it
         if self.dy != 1 and self.dy <= grid.available_width:
             self.move_north()
-        sleep(0.25)
         return self.dx, self.dy
 
     def keyboard_s_press(self, grid):
@@ -88,7 +73,6 @@ class EscapeRoomPlayer(Player):
         """
         if self.dy < grid.available_height:
             self.move_south()
-        sleep(0.25)
         return self.dx, self.dy
 
     def get_inventory(self, file_manager):
