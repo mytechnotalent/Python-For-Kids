@@ -75,15 +75,19 @@ class EscapeRoomPlayer(Player):
             self.move_south()
         return self.dx, self.dy
 
+    @staticmethod
     def get_inventory(self, file_manager):
         """
         Method to get the inventory from disk
 
         Params:
             file_manager: object
+
+        Returns:
+            str
         """
         inventory = file_manager.read_inventory_file()
-        self.inventory.append(inventory)
+        return inventory
 
     @staticmethod
     def pick_up_red_key(file_manager):
