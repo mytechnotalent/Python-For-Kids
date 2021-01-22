@@ -48,6 +48,8 @@ if __name__ == '__main__':
                     print('Enter ONLY 1, 2 or 3!')
             if response == correct_answer_index + 1:
                 print(game.correct_answer_response())
+                inventory = player.get_inventory(file_manager)
+                player.inventory.append(inventory)
                 if 'Red Key' not in player.inventory and not final_question:
                     receive_red_key = game.generate_random_number(grid)
                     if receive_red_key == 2:
