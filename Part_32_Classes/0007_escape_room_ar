@@ -1,0 +1,42 @@
+Escape Room Application Requirements
+------------------------------------
+1. Define the purpose of the application.
+   a. Create a game where we build an escape room style adventure game with 
+      our micro:bit with questions as we are placed inside a mountain cave
+      and work our way through different places in the cave where we randomly
+      stumble upon a question space and one of the questions spaces when 
+      answered correctly gives us a red key which we will need for the other
+      randomly placed question.  Once you answer the question which gives you
+      the red key you can then answer the question that will let you out of the 
+      cave or room to the outside world.  The micro:bit display will show an 
+      outline of the cave and the player moving around a map.
+2. Define the rules of the application.
+   a. If the player answers a correct question and that question has the red key
+      then a red key will be placed into a persistent inventory.
+   b. If the player answers the final room question and they have the red key in 
+      their inventory then they escape to the outside and win.
+3. Define the logical steps of the application.
+   a. Edit our data.py and populate our database.
+   b. Build out our Room.py base class logic.
+   c. Build out our EscapeRoomCave.py child class logic.
+   d. Build out our Player.py base class logic.
+   e. Build out our EscapeRoomPlayer.py child class logic.
+   f. Build out our SoundEffects.py base class logic.
+   g. Build out our EscapeRoomSoundEffects.py child class logic.
+   h. Build out our Question.py class logic.
+   i. Build out our RandomNumberGenerator.py logic.
+   j. Build out our FileManager.py logic.
+   k. Built our our UI base class logic.
+   l. Build out our EscapeRoomUi.py child class logic.
+   m. Build out our Game.py integretions class logic.
+   n. Tie the logic together into a specific application in main.py where we We 
+      then have our main while loop to first handle player movement and then after 
+      an event is triggered by clicking one of the 4 button we generate a random 
+      number and place into x and y.  If the player steps into one of those random  
+      locations then read the inventory file and see if the 'Red Key' has been 
+      obtained and if not ask a random question.  If they answer the question we 
+      pick up the 'Red Key' and flip the flag to True and then have the player 
+      return back to 1, 1 position.  We then follow similar logic if the player 
+      steps into the final question room and if they have the 'Red Key' in 
+      inventory then they win the game if they answer correctly otherwise they go 
+      back to 1, 1 and have to find where the new random spot is and try again.
