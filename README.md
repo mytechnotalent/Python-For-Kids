@@ -219,7 +219,12 @@ This tutorial will discuss functions.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-31-functions-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 32: COMING SOON!
+## Lesson 32: Python For Kids (Part 32: Classes)
+This tutorial will discuss classes.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-32-classes-kevin-thomas/) to read the article on LinkedIn.
+
+## Lesson 33: COMING SOON!
 
 <br>
 
