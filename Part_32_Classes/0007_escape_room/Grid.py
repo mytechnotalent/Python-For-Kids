@@ -28,9 +28,9 @@ class Grid:
         """
         return '\n' * 100
 
-    def draw_grid(self):
+    def create(self):
         """
-        Method to draw grid on generic led display
+        Method to create a grid
 
         Returns:
              str, str, str
@@ -42,9 +42,9 @@ class Grid:
         bottom_wall = self.led_on * self.led_width
         return top_wall, side_walls, bottom_wall
 
-    def update_display(self, player):
+    def update(self, player):
         """
-        Update display with each event where we re-draw
+        Method to handle update with each event where we re-draw
         grid with player's current position
 
         Params:
@@ -53,7 +53,7 @@ class Grid:
         Returns:
             grid: str
         """
-        top_wall, side_walls, bottom_wall = self.draw_grid()
+        top_wall, side_walls, bottom_wall = self.create()
         grid = top_wall + side_walls + bottom_wall + '\n'
         # Convert to a list so that the element can be mutable to add player char
         temp_grid = list(grid)

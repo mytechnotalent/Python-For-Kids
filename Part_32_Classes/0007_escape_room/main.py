@@ -18,18 +18,19 @@ if __name__ == '__main__':
         # To ensure we do not generate a question if the player is hitting a wall
         # or not entering a valid move
         previous_player_location = player_location
-        clear_screen, display_grid = game.update_ui(grid, player)
+        clear_screen = grid.clear_screen()
+        update_grid = grid.update(player)
         print(clear_screen)
-        print(display_grid)
+        print(update_grid)
         key = input('Enter A, D, W, S: ')
         if key == 'a':
-            player_location = player.keyboard_a_press(grid)
+            player_location = player.move_west(grid)
         elif key == 'd':
-            player_location = player.keyboard_d_press(grid)
+            player_location = player.move_east(grid)
         elif key == 'w':
-            player_location = player.keyboard_w_press(grid)
+            player_location = player.move_north(grid)
         elif key == 's':
-            player_location = player.keyboard_s_press(grid)
+            player_location = player.move_south(grid)
         else:
             pass
         random_location = (x, y) = game.generate_random_numbers(grid)

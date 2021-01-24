@@ -7,7 +7,7 @@ class FileManager:
     @staticmethod
     def write_inventory_file(inventory_item):
         """
-        Write inventory item to inventory file upon picking it up
+        Method to write inventory item to inventory file upon picking it up
         """
         try:
             with open('inventory', 'w') as file:
@@ -18,7 +18,7 @@ class FileManager:
     @staticmethod
     def read_inventory_file():
         """
-        Read inventory file and return its contents
+        Method to read inventory file and return its contents
 
         Return:
             str
@@ -33,7 +33,7 @@ class FileManager:
     @staticmethod
     def clear_inventory_file():
         """
-        Clear inventory file after winning a game
+        Method to clear inventory file after winning a game
         """
         try:
             with open('inventory', 'w') as file:
