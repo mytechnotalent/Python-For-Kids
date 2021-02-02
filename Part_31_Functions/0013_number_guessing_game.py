@@ -5,7 +5,7 @@ def guess_number(f_guess, f_turns_left):
     """Obtain player guess
 
     Params:
-        f_guess: int
+        f_guess: str
         f_turns_left: int
 
     Returns:
@@ -26,7 +26,7 @@ def did_win(f_guess, f_correct_answer):
     """Check player guess against the correct answer
 
     Params:
-        f_guess: int
+        f_guess: int, str
         f_correct_answer: int
 
     Returns:
@@ -50,7 +50,7 @@ print('RULES: Guess a number between 1 and 9.')
 
 correct_answer = randint(1, 9)
 turns_left = 3
-guess = 1
+guess = 0
 
 while guess != correct_answer:
     if turns_left >= 0:
