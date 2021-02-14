@@ -261,7 +261,10 @@ This tutorial will discuss MicroPython classes for the micro:bit V2.
 
 -> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-6-classes-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 7: COMING SOON!
+## Lesson 7: MicroPython For micro:bit (Part 7: Unittest)
+This tutorial will discuss MicroPython unittest for the micro:bit V2.
+
+-> Click [HERE](https://www.linkedin.com/pulse/micropython-microbit-part-7-unittest-kevin-thomas-1e/) to read the article on LinkedIn.
 
 <br>
 
