@@ -1,5 +1,4 @@
 from random import randint, choice
-from data import questions
 
 
 class Game:
@@ -41,18 +40,21 @@ class Game:
         return x, y
 
     @staticmethod
-    def ask_random_question():
+    def ask_random_question(d_questions):
         """Method to ask a random question from the database
+
+        Params:
+            d_questions: dict
 
         Returns:
             str, str, str, str, int, str
         """
-        random_question = choice(list(questions))
-        answer_1 = questions[random_question][0]
-        answer_2 = questions[random_question][1]
-        answer_3 = questions[random_question][2]
-        correct_answer_index = questions[random_question][3]
-        correct_answer = questions[random_question][correct_answer_index]
+        random_question = choice(list(d_questions))
+        answer_1 = d_questions[random_question][0]
+        answer_2 = d_questions[random_question][1]
+        answer_3 = d_questions[random_question][2]
+        correct_answer_index = d_questions[random_question][3]
+        correct_answer = d_questions[random_question][correct_answer_index]
         return random_question, answer_1, answer_2, answer_3, correct_answer_index, correct_answer
 
     @staticmethod

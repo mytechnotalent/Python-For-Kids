@@ -1,4 +1,5 @@
 from time import sleep
+from data import questions
 from Grid import Grid
 from EscapeRoomPlayer import EscapeRoomPlayer
 from FileManager import FileManager
@@ -36,7 +37,7 @@ if __name__ == '__main__':
         random_location = (x, y) = game.generate_random_numbers(grid)
         if random_location == player_location and random_location != previous_player_location:
             random_question, answer_1, answer_2, answer_3, correct_answer_index, correct_answer \
-                = game.ask_random_question()
+                = game.ask_random_question(questions)
             print(random_question)
             print('Press 1 for {0}.'.format(answer_1))
             print('Press 2 for {0}.'.format(answer_2))
