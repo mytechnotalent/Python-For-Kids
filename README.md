@@ -224,7 +224,10 @@ This tutorial will discuss classes.
 
 -> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-32-classes-kevin-thomas/) to read the article on LinkedIn.
 
-## Lesson 33: COMING SOON!
+## Lesson 33: Python For Kids (Part 33: Unittest)
+This tutorial will discuss unittest.
+
+-> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-33-unittest-kevin-thomas/) to read the article on LinkedIn.
 
 <br>
 
