@@ -32,7 +32,7 @@ class TestGrid(unittest.TestCase):
 
     def test_update(self):
         """
-        test create functionality
+        test update functionality
         """
         # Params
         self.player.dx = 0
