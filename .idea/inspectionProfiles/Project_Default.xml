@@ -1,0 +1,75 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W605" />
+          <option value="E128" />
+          <option value="E231" />
+          <option value="E741" />
+          <option value="E711" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="microbit.pin_logo.is_touched" />
+          <option value="neopixel" />
+          <option value="board.LED" />
+          <option value="board.D1" />
+          <option value="machine.SoftSPI" />
+          <option value="Display.TFT" />
+          <option value="time.*" />
+          <option value="rp2" />
+          <option value="main.wrap_target" />
+          <option value="main.label" />
+          <option value="main.out" />
+          <option value="main.x" />
+          <option value="main.not_x" />
+          <option value="main.jmp" />
+          <option value="main.nop" />
+          <option value="main.wrap" />
+          <option value="NeoPixel.wrap_target" />
+          <option value="NeoPixel.label" />
+          <option value="NeoPixel.out" />
+          <option value="NeoPixel.x" />
+          <option value="NeoPixel.not_x" />
+          <option value="NeoPixel.jmp" />
+          <option value="NeoPixel.nop" />
+          <option value="NeoPixel.wrap" />
+          <option value="ws2812.wrap_target" />
+          <option value="ws2812.label" />
+          <option value="ws2812.out" />
+          <option value="ws2812.x" />
+          <option value="ws2812.not_x" />
+          <option value="ws2812.jmp" />
+          <option value="ws2812.nop" />
+          <option value="ws2812.wrap" />
+          <option value="Neo.wrap_target" />
+          <option value="Neo.label" />
+          <option value="Neo.out" />
+          <option value="Neo.x" />
+          <option value="Neo.jmp" />
+          <option value="Neo.not_x" />
+          <option value="Neo.nop" />
+          <option value="Neo.wrap" />
+          <option value="machine.ADC" />
+          <option value="main.SoftSPI" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

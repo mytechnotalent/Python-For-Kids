@@ -1,8 +1,10 @@
 def has_raw_materials(f_raw_materials, d_raw_materials):
     """Check if there are enough raw materials in the machine
+
     Params:
         f_raw_materials: dict
         d_raw_materials: dict
+
     Returns:
         str or bool
     """
@@ -18,8 +20,10 @@ def has_raw_materials(f_raw_materials, d_raw_materials):
 
 def collect_money(f_max_value, f_quarters, f_dimes, f_nickels):
     """Collect money into the machine
+
     Params:
         f_max_value: float
+
     Returns:
         float or str
     """
@@ -37,16 +41,17 @@ def collect_money(f_max_value, f_quarters, f_dimes, f_nickels):
 
 def has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collected):
     """Check to see if customer put in enough money into the machine
+
     Params:
         f_money_collected: float
         f_chocolate_price: float
+
     Returns:
         str, int
     """
     if f_money_collected >= f_chocolate_price:
         excess_money_collected = round(f_money_collected - f_chocolate_price, 2)
-        global total_money_collected
-        total_money_collected += f_chocolate_price
+        f_total_money_collected += f_chocolate_price
         return 'Change: ${0:.2f}\n'.format(excess_money_collected), f_total_money_collected
     else:
         return 'Insufficient funds...  Dispensing coins inserted.\n'
@@ -54,10 +59,12 @@ def has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collect
 
 def bake_chocolate_bar(f_chocolate_choice, f_raw_materials, d_raw_materials):
     """Bake chocolate bar from raw materials
+
     Params:
         f_chocolate_choice: str
         f_raw_materials: dict
         d_raw_materials: dict
+
     Returns:
         str
     """
@@ -69,9 +76,11 @@ def bake_chocolate_bar(f_chocolate_choice, f_raw_materials, d_raw_materials):
 def stats(d_raw_materials, f_total_money_collected):
     """
     Show machine statistics
+
     Params:
         d_raw_materials: dict
         f_money_collected: float
+
     Returns:
         str
     """

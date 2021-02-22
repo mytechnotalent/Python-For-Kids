@@ -1,7 +1,7 @@
 import unittest
 
-from lib.ChocolateMachine import ChocolateMachine
-from data.data import CHOCOLATE_CHOICES
+from ..lib.ChocolateMachine import ChocolateMachine
+from ..data.data import CHOCOLATE_CHOICES
 
 
 class TestChocolateMachine(unittest.TestCase):

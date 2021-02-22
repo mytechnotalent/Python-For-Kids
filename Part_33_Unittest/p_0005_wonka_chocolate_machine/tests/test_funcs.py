@@ -1,7 +1,7 @@
 import unittest
 
-from funcs import has_raw_materials, collect_money, has_enough_money, bake_chocolate_bar, stats
-from data import CHOCOLATE_CHOICES
+from ..funcs import has_raw_materials, collect_money, has_enough_money, bake_chocolate_bar, stats
+from ..data import CHOCOLATE_CHOICES
 
 
 class TestFuncs(unittest.TestCase):
@@ -69,10 +69,10 @@ class TestFuncs(unittest.TestCase):
             'Machine Needs Additional: vanilla extract\n'
 
         # Calls
-        bool_1 = has_raw_materials(f_raw_materials, d_raw_materials)
+        string_1 = has_raw_materials(f_raw_materials, d_raw_materials)
 
         # Asserts
-        self.assertEqual(bool_1, return_1)
+        self.assertEqual(string_1, return_1)
 
     def test_collect_money(self):
         """
@@ -138,12 +138,13 @@ class TestFuncs(unittest.TestCase):
         # Params
         f_money_collected = 2.50
         f_chocolate_price = 2.25
+        f_total_money_collected = 2.25
 
         # Returns
-        return_1 = 'Change: $0.25\n'
+        return_1 = 'Change: $0.25\n', 4.5
 
         # Calls
-        string_1 = has_enough_money(f_money_collected, f_chocolate_price)
+        string_1 = has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collected)
 
         # Asserts
         self.assertEqual(string_1, return_1)
@@ -155,12 +156,13 @@ class TestFuncs(unittest.TestCase):
         # Params
         f_money_collected = 2.00
         f_chocolate_price = 2.25
+        f_total_money_collected = 2.25
 
         # Returns
         return_1 = 'Insufficient funds...  Dispensing coins inserted.\n'
 
         # Calls
-        string_1 = has_enough_money(f_money_collected, f_chocolate_price)
+        string_1 = has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collected)
 
         # Asserts
         self.assertEqual(string_1, return_1)
@@ -215,6 +217,7 @@ class TestFuncs(unittest.TestCase):
             'vanilla extract': 2,
             'Reese\'s Pieces': 15,
         }
+        f_money_collected = 0.00
 
         # Returns
         return_1 = 'sugar 2 tablespoons remaining\n' \
@@ -229,7 +232,7 @@ class TestFuncs(unittest.TestCase):
             'Total Money Collected: $0.00\n'
 
         # Calls
-        string_1 = stats(d_raw_materials)
+        string_1 = stats(d_raw_materials, f_money_collected)
 
         # Asserts
         self.assertEqual(string_1, return_1)

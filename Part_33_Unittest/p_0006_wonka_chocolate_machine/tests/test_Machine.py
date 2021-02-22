@@ -1,6 +1,6 @@
 import unittest
 
-from lib.Machine import Machine
+from ..lib.Machine import Machine
 
 
 class TestMachine(unittest.TestCase):

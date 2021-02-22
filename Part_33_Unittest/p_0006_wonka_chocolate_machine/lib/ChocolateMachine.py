@@ -1,4 +1,4 @@
-from lib.Machine import Machine
+from ..lib.Machine import Machine
 
 
 class ChocolateMachine(Machine):
