@@ -4,6 +4,7 @@ from data import CHOCOLATE_CHOICES, raw_materials
 CHOICES = ('dark', 'caramel', 'mint', 'surprise', 'stats', 'shutdown')
 SHUTDOWN_PASSWORD = '8675309'
 machine_active = True
+total_money_collected = 0
 
 while machine_active:
     valid_choice = False
@@ -19,7 +20,7 @@ while machine_active:
         else:
             print('YOU ARE NOT AUTHORIZED TO DISABLE THIS MACHINE!\n')
     elif choice == 'stats':
-        stats_ = stats(raw_materials)
+        stats_ = stats(raw_materials, total_money_collected)
         print(stats_)
     elif valid_choice:
         selection = CHOCOLATE_CHOICES[choice]
@@ -35,7 +36,7 @@ while machine_active:
             if not isinstance(money, float):
                 print(money)
             else:
-                change = has_enough_money(money, selection['price'])
+                change = has_enough_money(money, selection['price'], total_money_collected)
                 if change == 'Insufficient funds...  Dispensing coins inserted.\n':
                     print(change)
                 else:
@@ -46,4 +47,3 @@ while machine_active:
             machine_active = False
 
 print('We are going down for maintenance...')
-
