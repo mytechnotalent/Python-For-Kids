@@ -28,9 +28,9 @@ class Grid:
         """
         return '\n' * 100
 
-    def create(self):
+    def __create(self):
         """
-        Method to create a grid
+        Private method to create a grid
 
         Returns:
              str, str, str
@@ -53,7 +53,7 @@ class Grid:
         Returns:
             grid: str
         """
-        top_wall, side_walls, bottom_wall = self.create()
+        top_wall, side_walls, bottom_wall = self.__create()
         grid = top_wall + side_walls + bottom_wall + '\n'
         # Convert to a list so that the element can be mutable to add player char
         temp_grid = list(grid)
