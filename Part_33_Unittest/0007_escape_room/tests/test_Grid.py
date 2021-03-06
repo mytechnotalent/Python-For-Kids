@@ -13,23 +13,6 @@ class TestGrid(unittest.TestCase):
         self.grid = Grid()
         self.player = EscapeRoomPlayer()
 
-    def test_create(self):
-        """
-        test create functionality
-        """
-        # Returns
-        return_1 = '\n'
-        return_2 = ''
-        return_3 = ''
-
-        # Calls
-        string_1, string_2, string_3 = self.grid.create()
-
-        # Asserts
-        self.assertEqual(string_1, return_1)
-        self.assertEqual(string_2, return_2)
-        self.assertEqual(string_3, return_3)
-
     def test_update(self):
         """
         test update functionality
