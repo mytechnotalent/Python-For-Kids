@@ -101,7 +101,7 @@ class Player:
             int, int
         """
         # If the player is against the top wall do NOT allow them to go through it
-        if self.dy != 1 and self.dy <= grid.available_width:
+        if self.dy != 1 and self.dy <= grid.available_height:
             self.__move_north()
         sleep(0.25)
         return self.dx, self.dy
