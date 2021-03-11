@@ -26,7 +26,8 @@ class Player:
         self.inventory = inventory
 
     def __move(self, dx, dy):
-        """Method to move a generic player based on their current x and y location
+        """
+        Method to move a generic player based on their current x and y location
 
         Params:
             dx: int
