@@ -61,6 +61,9 @@ class Game:
     def correct_answer_response():
         """
         Method to handle correct answer response
+        
+        Returns:
+            str
         """
         return '\nCorrect!'
 
