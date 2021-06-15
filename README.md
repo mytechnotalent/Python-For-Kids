@@ -58,7 +58,7 @@ This tutorial will get you connected to a FREE additional series of step-by-step
 
 <br>
 
-## MICROPYTON FOR MICRO:BIT (BBC micro:bit V2 Development Board)
+## MICROPYTHON FOR MICRO:BIT (BBC micro:bit V2 Development Board)
 REPO [HERE](https://github.com/mytechnotalent/micropython_for_microbit)
 
 ## Lesson 1: MicroPython For micro:bit (Part 1: Basic I/O)
