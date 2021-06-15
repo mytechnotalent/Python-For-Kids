@@ -1,0 +1,26 @@
+Escape Room Application Requirements
+------------------------------------
+1. Define the purpose of the application.
+   a. Create a game where we build an escape room style adventure game with 
+      our micro:bit with questions as we are placed inside a mountain cave
+      and work our way through different places in the cave where we randomly
+      stumble upon a question space and one of the questions spaces when 
+      answered correctly gives us a red key which we will need for the other
+      randomly placed question.  Once you answer the question which gives you
+      the red key you can then answer the question that will let you out of the 
+      cave or room to the outside world.  The micro:bit display will show an 
+      outline of the cave and the player moving around a map.
+2. Define the rules of the application.
+   a. If the player answers a correct question and that question has the red key
+      then a red key will be placed into a persistent inventory.
+   b. If the player answers the final room question and they have the red key in 
+      their inventory then they escape to the outside and win.
+3. Define the logical steps of the application.
+   a. Edit our data.py and populate our database.
+   b. Build out our Grid class logic.
+   c. Build out our Player.py base class logic.
+   d. Build out our EscapeRoomPlayer.py child class logic.
+   e. Build out our FileManager.py class logic.
+   f. Build out our Game.py class logic.
+   g. Build out our main.py logic to properly account for the integration of all    
+      of the above classes and guarantee proper functionality.
