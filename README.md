@@ -14,7 +14,7 @@ A comprehensive and FREE Online Python Development tutorial FOR KIDS utilizing a
 ## Lesson 1: Python For Kids V2 (Part 1: Goals)
 This tutorial will begin with the basic concepts of why kids should learn to program in Python.
 
--> Written Lesson Arriving Sunday Evening 10/3/21 <br>
+-> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_1r2.pdf) to read the lesson in PDF format. <br>
 -> Click [HERE](https://youtu.be/eAkOAuHkroI) to watch the video on YouTube.
 
 ## Lesson 2: Python For Kids V2 (Part 2: "Hello World")
