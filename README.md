@@ -58,7 +58,7 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 -> Written Lesson Arriving Sunday Evening 10/3/21 <br>
 -> Click [HERE](https://youtu.be/lBEWy5M4fuI) to watch the video on YouTube.
 
-PLEASE STANDBY AS VIDEOS ARE UNDER DEVELOPMENT FOR THE BELOW LESSONS...
+PLEASE STANDBY AS THE BOOK AND VIDEOS ARE UNDER DEVELOPMENT FOR THE BELOW LESSONS...
 
 ## Chapter 9: Basic I/O
 This tutorial will discuss MicroPython basic input and output for the micro:bit.
