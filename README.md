@@ -14,41 +14,50 @@ A comprehensive and FREE Online Python Development tutorial FOR KIDS utilizing a
 ## Lesson 1: Python For Kids V2 (Part 1: Goals)
 This tutorial will begin with the basic concepts of why kids should learn to program in Python.
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/eAkOAuHkroI) to watch the video on YouTube.
 
 ## Lesson 2: Python For Kids V2 (Part 2: "Hello World")
 This tutorial will step-by-step code our first program to have our little microcontroller say hello to the world!
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/QnlBMgSZUzU) to watch the video on YouTube.
 
 ## Lesson 3: Python For Kids V2 (Part 3: FUN With Images)
 This tutorial will step-by-step code a FUN image making program where our little microcontroller will make various faces to his new friend.
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/L6-R7LRj5ik) to watch the video on YouTube.
 
 ## Lesson 4: Python For Kids V2 (Part 4: FUN With Numbers) 
 This tutorial will step-by-step code a FUN program where we will work with numbers and learn about how to make variables with them. 
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/uSRpjvSyhC8) to watch the video on YouTube.
 
 ## Lesson 5: Python For Kids V2 (Part 5: FUN With Words)
 This tutorial will step-by-step code a FUN program where we will work with words and learn about how to make variables with them. 
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/cMrzeprc3j4) to watch the video on YouTube.
 
 ## Lesson 6: Python For Kids V2 (Part 6: FUN With Word Lists)
 This tutorial will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/2cYZt0imQBk) to watch the video on YouTube..
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 ## Lesson 7: Python For Kids V2 (Part 7: FUN With Music)
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/JMXXGRnR7fo) to watch the video on YouTube.
 
 ## Lesson 8: Python For Kids V2 (Part 8: FUN With Talking Robots)
 This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will respond to us using his voice. 
 
+-> Written Lesson Arriving Sunday Evening 10/3/21
 -> Click [HERE](https://youtu.be/lBEWy5M4fuI) to watch the video on YouTube.
 
 PLEASE STANDBY AS VIDEOS ARE UNDER DEVELOPMENT FOR THE BELOW LESSONS...
