@@ -62,13 +62,6 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 
 PLEASE STANDBY AS VIDEOS ARE UNDER DEVELOPMENT FOR THE BELOW LESSONS...
 
-## Lesson 9: Python For Kids V2 (Part 9: Dozens Of FREE Additional STEP-BY-STEP Lessons Online!
-This tutorial will get you connected to a FREE additional series of step-by-step lessons with detailed code and pictures available from the microbit.org website! 
-
--> Click [HERE](https://www.linkedin.com/pulse/python-kids-part-9-dozens-free-additional-lessons-online-kevin-thomas/) to read the article on LinkedIn.
-
-<br>
-
 ## MICROPYTHON FOR MICRO:BIT (BBC micro:bit V2 Development Board)
 
 ## Lesson 1: MicroPython For micro:bit (Part 1: Basic I/O)
