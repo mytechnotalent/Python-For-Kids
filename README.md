@@ -45,7 +45,6 @@ This tutorial will step-by-step code a FUN program where we will work with word 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_9r1.pdf) to read the lesson in PDF format. <br>
 -> Click [HERE](https://youtu.be/2cYZt0imQBk) to watch the video on YouTube..
 
--> Written Lesson Arriving Sunday Evening 10/3/21 <br>
 ## Chapter 7: Fun With Music
 This tutorial will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
 
