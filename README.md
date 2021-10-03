@@ -54,7 +54,7 @@ This tutorial will step-by-step code a FUN song making program where our little 
 ## Chapter 8: Fun With Talking Robots
 This tutorial will step-by-step interact with a FUN talking robot where we can ask him questions and he will respond to us using his voice. 
 
--> Click [HERE](hhttps://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_10r1.pdf) to read the lesson in PDF format. <br>
+-> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_10r1.pdf) to read the lesson in PDF format. <br>
 -> Click [HERE](https://youtu.be/lBEWy5M4fuI) to watch the video on YouTube.
 
 PLEASE STANDBY AS THE BOOK AND VIDEOS ARE UNDER DEVELOPMENT FOR THE BELOW LESSONS...
