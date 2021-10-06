@@ -1,5 +1,5 @@
-from lib.ChocolateMachine import ChocolateMachine
-from data.data import CHOCOLATE_CHOICES, raw_materials
+from chocolate_machine import ChocolateMachine
+from data import CHOCOLATE_CHOICES, raw_materials
 
 CHOICES = ('dark', 'caramel', 'mint', 'surprise', 'stats', 'shutdown')
 MAX_VALUE = 100.00

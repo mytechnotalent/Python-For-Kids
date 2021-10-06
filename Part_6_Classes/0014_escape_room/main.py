@@ -1,9 +1,9 @@
 from microbit import display, Image, button_a, button_b, pin_logo, pin2
-from Grid import Grid
-from EscapeRoomPlayer import EscapeRoomPlayer
+from grid import Grid
+from escape_room_player import EscapeRoomPlayer
 from data import questions
-from FileManager import FileManager
-from Game import Game
+from file_manager import FileManager
+from game import Game
 from speech import say
 import music
 
