@@ -1,6 +1,6 @@
 [![CLICK FOR VIDEO](https://raw.githubusercontent.com/mytechnotalent/Python-For-Kids/master/Python%20For%20Kids.jpg)](https://www.youtube.com/watch?v=b4V13Lvk_jM)
 
-# Python For Kids
+# Python For Kids: MicroPython Edition
 A comprehensive and FREE Online Python Development tutorial FOR KIDS utilizing an official BBC micro:bit Development Board going step-by-step into the world of Python for microcontrollers.
 
 <br> 
