@@ -61,43 +61,36 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 This tutorial will discuss MicroPython basic input and output for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdff) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 10: DataTypes & Numbers
 This tutorial will discuss MicroPython datatypes and numbers for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 11: Conditional Logic
 This tutorial will discuss MicroPython conditional logic and application flow chart design for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 12: Lists, Tuples, Dictionaries & Loops
 This tutorial will discuss MicroPython lists, tuples, dictionaries and loops for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 13: Functions
 This tutorial will discuss MicroPython functions for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 14: Classes
 This tutorial will discuss MicroPython classes for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 ## Chapter 15: Unittest
 This tutorial will discuss MicroPython unittest for the micro:bit.
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> YOUTUBE VIDEO COMING SOON!
 
 <br>
 
