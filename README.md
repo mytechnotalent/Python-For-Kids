@@ -60,7 +60,7 @@ This tutorial will step-by-step interact with a FUN talking robot where we can a
 ## Chapter 9: Basic I/O
 This tutorial will discuss MicroPython basic input and output for the micro:bit.
 
--> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdff) to read the lesson in PDF format. <br>
+-> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
 
 ## Chapter 10: DataTypes & Numbers
 This tutorial will discuss MicroPython datatypes and numbers for the micro:bit.
