@@ -1,12 +1,16 @@
 import unittest
 import mock
 
-from Game import Game
-from Grid import Grid
-from FileManager import FileManager
+from game import Game
+from grid import Grid
+from file_manager import FileManager
 
 
 class TestGame(unittest.TestCase):
+    """
+    Test class to test game module
+    """
+    
     def setUp(self):
         """
         setUp class
@@ -16,43 +20,37 @@ class TestGame(unittest.TestCase):
         self.grid = Grid()
         self.file_manager = FileManager()
 
-    @mock.patch('Game.randint', return_value=2)
+    @mock.patch('game.randint', return_value=2)
     def test_generate_random_number(self, _):
         """
         test generate_random_number functionality
         """
         # Params
         grid = self.grid
-
         # Returns
         return_1 = 2
-
         # Calls
         integer_1 = self.game.generate_random_number(grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
 
-    @mock.patch('Game.randint', return_value=2)
+    @mock.patch('game.randint', return_value=2)
     def test_generate_random_numbers(self, _):
         """
         test generate_random_numbers functionality
         """
         # Params
         grid = self.grid
-
         # Returns
         return_1 = 2
         return_2 = 2
-
         # Calls
         integer_1, integer_2 = self.game.generate_random_numbers(grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
         self.assertEqual(integer_2, return_2)
 
-    @mock.patch('Game.choice', return_value='What year did Damien George create MicroPython?')
+    @mock.patch('game.choice', return_value='What year did Damien George create MicroPython?')
     def test_ask_random_question(self, _):
         """
         test ask_random_question functionality
@@ -88,7 +86,6 @@ class TestGame(unittest.TestCase):
                     2
                 ],
         }
-
         # Returns
         return_1 = 'What year did Damien George create MicroPython?'
         return_2 = '2015'
@@ -96,10 +93,8 @@ class TestGame(unittest.TestCase):
         return_4 = '2014'
         return_5 = 2
         return_6 = '2014'
-
         # Calls
         string_1, string_2, string_3, string_4, integer_1, string_5 = self.game.ask_random_question(d_questions)
-
         # Asserts
         self.assertEqual(string_1, return_1)
         self.assertEqual(string_2, return_2)
@@ -114,10 +109,8 @@ class TestGame(unittest.TestCase):
         """
         # Returns
         return_1 = '\nCorrect!'
-
         # Calls
         string_1 = self.game.correct_answer_response()
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
@@ -127,13 +120,10 @@ class TestGame(unittest.TestCase):
         """
         # Params
         correct_answer = '2014'
-
         # Returns
         return_1 = '\nThe correct answer is 2014.'
-
         # Calls
         string_1 = self.game.incorrect_answer_response(correct_answer)
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
@@ -143,13 +133,10 @@ class TestGame(unittest.TestCase):
         """
         # Params
         file_manager = self.file_manager
-
         # Returns
         return_1 = '\nYou Escaped!'
-
         # Calls
         string_1 = self.game.win(file_manager)
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
