@@ -59,4 +59,3 @@ raw_materials = {
     'vanilla extract': 2,
     'Reese\'s Pieces': 15,
 }
-

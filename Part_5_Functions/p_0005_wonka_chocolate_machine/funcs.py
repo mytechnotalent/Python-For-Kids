@@ -1,5 +1,6 @@
 def has_raw_materials(f_raw_materials, d_raw_materials):
-    """Check if there are enough raw materials in the machine
+    """
+    Function to check if there are enough raw materials in the machine
 
     Params:
         f_raw_materials: dict
@@ -19,7 +20,8 @@ def has_raw_materials(f_raw_materials, d_raw_materials):
 
 
 def collect_money(f_max_value, f_quarters, f_dimes, f_nickels):
-    """Collect money into the machine
+    """
+    Function to collect money into the machine
 
     Params:
         f_max_value: float
@@ -40,7 +42,8 @@ def collect_money(f_max_value, f_quarters, f_dimes, f_nickels):
 
 
 def has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collected):
-    """Check to see if customer put in enough money into the machine
+    """
+    Function to check to see if customer put in enough money into the machine
 
     Params:
         f_money_collected: float
@@ -51,15 +54,15 @@ def has_enough_money(f_money_collected, f_chocolate_price, f_total_money_collect
     """
     if f_money_collected >= f_chocolate_price:
         excess_money_collected = round(f_money_collected - f_chocolate_price, 2)
-        global total_money_collected
-        total_money_collected += f_chocolate_price
+        f_total_money_collected += f_chocolate_price
         return 'Change: ${0:.2f}\n'.format(excess_money_collected), f_total_money_collected
     else:
         return 'Insufficient funds...  Dispensing coins inserted.\n'
 
 
 def bake_chocolate_bar(f_chocolate_choice, f_raw_materials, d_raw_materials):
-    """Bake chocolate bar from raw materials
+    """
+    Function to bake chocolate bar from raw materials
 
     Params:
         f_chocolate_choice: str
@@ -76,7 +79,7 @@ def bake_chocolate_bar(f_chocolate_choice, f_raw_materials, d_raw_materials):
 
 def stats(d_raw_materials, f_total_money_collected):
     """
-    Show machine statistics
+    Function to show machine statistics
 
     Params:
         d_raw_materials: dict
@@ -97,4 +100,3 @@ def stats(d_raw_materials, f_total_money_collected):
     cm_stats += 'Reese\'s Pieces {0} tablespoons remaining\n'.format(d_raw_materials['Reese\'s Pieces'])
     cm_stats += 'Total Money Collected: ${0:.2f}\n'.format(f_total_money_collected)
     return cm_stats
-

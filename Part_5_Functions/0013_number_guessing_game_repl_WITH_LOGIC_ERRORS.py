@@ -2,7 +2,8 @@ from random import randint
 
 
 def guess_number(f_guess, f_turns_left):
-    """Obtain player guess
+    """
+    Functio to obtain player guess
 
     Params:
         f_guess: int
@@ -22,7 +23,8 @@ def guess_number(f_guess, f_turns_left):
 
 
 def did_win(f_guess, f_correct_answer, f_turns_left):
-    """Check player guess against the correct answer
+    """
+    Function to check player guess against the correct answer
 
     Params:
         f_guess: int
