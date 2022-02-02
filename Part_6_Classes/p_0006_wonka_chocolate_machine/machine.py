@@ -10,7 +10,7 @@ class Machine:
 
     def stats(self):
         """
-        Show machine statistics
+        Method to show machine statistics
 
         Returns:
             str
@@ -19,7 +19,7 @@ class Machine:
 
     def collect_money(self, max_value, m_quarters, m_dimes, m_nickels):
         """
-        Collects money into machine
+        Method to collect money into machine
 
         Params:
             max_value: float
@@ -42,7 +42,7 @@ class Machine:
 
     def has_enough_money(self, price):
         """
-        Check to see if customer put in enough money into the machine
+        Method to check to see if customer put in enough money into the machine
 
         Params:
             price: float
@@ -59,7 +59,7 @@ class Machine:
 
     def shutdown_machine(self, shutdown_password, entered_password):
         """
-        Shutdown machine
+        Method to shutdown machine
 
         Params:
             shutdown_password: str
