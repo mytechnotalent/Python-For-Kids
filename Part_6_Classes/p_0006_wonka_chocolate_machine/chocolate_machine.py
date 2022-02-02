@@ -8,7 +8,7 @@ class ChocolateMachine(Machine):
 
     def __init__(self, choices, __total_money_collected=0):
         """
-        Attrs:
+        Params:
             choices: str
             __total_money_collected: float
         """
