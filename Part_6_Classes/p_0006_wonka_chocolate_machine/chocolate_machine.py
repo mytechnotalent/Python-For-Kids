@@ -3,7 +3,7 @@ from machine import Machine
 
 class ChocolateMachine(Machine):
     """
-    Child class to represent a chocolate machine inheriting from the Machine base class
+    Child class to represent a chocolate machine
     """
 
     def __init__(self, choices, __total_money_collected=0):
@@ -17,7 +17,7 @@ class ChocolateMachine(Machine):
 
     def stats(self, d_raw_materials=None):
         """
-        Show machine statistics
+        Method to show machine statistics
 
         Params:
             d_raw_materials: dict
@@ -40,7 +40,7 @@ class ChocolateMachine(Machine):
 
     def has_raw_materials(self, m_raw_materials, d_raw_materials):
         """
-        Check if there are enough raw materials in the machine
+        Method to check if there are enough raw materials in the machine
 
         Params:
             m_raw_materials: dict
@@ -60,7 +60,7 @@ class ChocolateMachine(Machine):
 
     def bake_chocolate_bar(self, chocolate_choice, m_raw_materials, d_raw_materials):
         """
-        Bake chocolate bar from raw materials
+        Method to bake chocolate bar from raw materials
 
         Params:
             chocolate_choice: str
