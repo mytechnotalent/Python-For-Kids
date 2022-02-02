@@ -38,9 +38,9 @@ class ChocolateMachine(Machine):
         cm_stats += super(ChocolateMachine, self).stats()
         return cm_stats
 
-    @staticmethod
-    def has_raw_materials(m_raw_materials, d_raw_materials):
-        """Check if there are enough raw materials in the machine
+    def has_raw_materials(self, m_raw_materials, d_raw_materials):
+        """
+        Check if there are enough raw materials in the machine
 
         Params:
             m_raw_materials: dict
@@ -58,8 +58,7 @@ class ChocolateMachine(Machine):
         else:
             return True
 
-    @staticmethod
-    def bake_chocolate_bar(chocolate_choice, m_raw_materials, d_raw_materials):
+    def bake_chocolate_bar(self, chocolate_choice, m_raw_materials, d_raw_materials):
         """
         Bake chocolate bar from raw materials
 
