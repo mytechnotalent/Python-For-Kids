@@ -5,17 +5,18 @@ class Person:
 
     def __init__(self, name='Generic', has_hair=False, hair_color=None):
         """
-        Attrs:
-            name: str
-            has_hair: bool
-            hair_color: str
+        Params:
+            name: str. optional
+            has_hair: bool, optional
+            hair_color: str, optional
         """
         self.name = name
         self.has_hair = has_hair
         self.hair_color = hair_color
 
     def is_brushing_hair(self):
-        """Method to handle a person brushing hair if has_hair
+        """
+        Method to handle a person brushing hair if has_hair
 
         Returns:
             str
@@ -26,7 +27,8 @@ class Person:
             return '{0} does not have hair.'.format(self.name)
 
     def is_eating(self, food):
-        """Method to handle a person eating
+        """
+        Method to handle a person eating
 
         Params:
             food: str
@@ -37,7 +39,8 @@ class Person:
         return '{0} is eating {1}!'.format(self.name, food)
 
     def is_walking(self):
-        """Method to handle a person walking
+        """
+        Method to handle a person walking
 
         Returns:
             str
@@ -45,7 +48,8 @@ class Person:
         return '{0} is walking.'.format(self.name)
 
     def is_sleeping(self):
-        """Method to handle a person sleeping
+        """
+        Method to handle a person sleeping
 
         Returns:
             str
