@@ -1,8 +1,6 @@
 from chocolate_machine import ChocolateMachine
 from data import CHOCOLATE_CHOICES, raw_materials
-
-CHOICES = ('dark', 'caramel', 'mint', 'surprise', 'stats', 'shutdown')
-MAX_VALUE = 100.00
+from config import *
 
 chocolate_machine = ChocolateMachine(CHOICES)
 
@@ -38,7 +36,7 @@ while chocolate_machine_active:
             if not isinstance(money_collected, float):
                 print(money_collected)
             else:
-                change = chocolate_machine.has_enough_money(selection['price'], money_collected)
+                change = chocolate_machine.has_enough_money(selection['price'])
                 if change == 'Insufficient funds...  Dispensing coins inserted.\n':
                     print(change)
                 else:
