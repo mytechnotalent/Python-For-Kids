@@ -15,7 +15,7 @@ class AssertRaisesContext:
 
     def __init__(self, exc):
         """
-        Attrs:
+        Params:
             exc: str
         """ 
         self.expected = exc
@@ -295,6 +295,7 @@ def skip(msg):
         return _inner
     return _decor
 
+
 def skipIf(cond, msg):
     """
     Function to handle skip if logic
@@ -309,6 +310,7 @@ def skipIf(cond, msg):
     if not cond:
         return lambda x: x
     return skip(msg)
+
 
 def skipUnless(cond, msg):
     """
@@ -330,6 +332,7 @@ class TestSuite:
     """
     Class to handle unittest test suite functionality
     """
+    
     def __init__(self):
         self.tests = []
 
@@ -342,10 +345,12 @@ class TestSuite:
         """
         self.tests.append(cls)
 
+        
 class TestRunner:
     """
     Class to handle test runner functionality
     """
+    
     def run(self, suite):
         """
         Method to handle test run functionality
@@ -369,10 +374,12 @@ class TestRunner:
             print(msg)
         return res
 
+    
 class TestResult:
     """
     Class to handle test result functionality
     """
+    
     def __init__(self):
         self.errorsNum = 0
         self.failuresNum = 0
