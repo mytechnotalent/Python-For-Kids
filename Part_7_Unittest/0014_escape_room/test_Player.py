@@ -1,11 +1,15 @@
 import unittest
 
-from Player import Player
-from Grid import Grid
-from FileManager import FileManager
+from player import Player
+from grid import Grid
+from file_manager import FileManager
 
 
 class TestPlayer(unittest.TestCase):
+    """
+    Test class to test player module
+    """
+    
     def setUp(self):
         """
         setUp class
@@ -21,14 +25,11 @@ class TestPlayer(unittest.TestCase):
         """
         # Params
         grid = self.grid
-
         # Returns
         return_1 = self.player.dx
         return_2 = self.player.dy
-
         # Calls
         integer_1, integer_2 = self.player.move_east(grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
         self.assertEqual(integer_2, return_2)
@@ -40,10 +41,8 @@ class TestPlayer(unittest.TestCase):
         # Returns
         return_1 = self.player.dx
         return_2 = self.player.dy
-
         # Calls
         integer_1, integer_2 = self.player.move_west(self.grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
         self.assertEqual(integer_2, return_2)
@@ -54,14 +53,11 @@ class TestPlayer(unittest.TestCase):
         """
         # Params
         grid = self.grid
-
         # Returns
         return_1 = self.player.dx
         return_2 = self.player.dy
-
         # Calls
         integer_1, integer_2 = self.player.move_north(grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
         self.assertEqual(integer_2, return_2)
@@ -72,14 +68,11 @@ class TestPlayer(unittest.TestCase):
         """
         # Params
         grid = self.grid
-
         # Returns
         return_1 = self.player.dx
         return_2 = self.player.dy
-
         # Calls
         integer_1, integer_2 = self.player.move_south(grid)
-
         # Asserts
         self.assertEqual(integer_1, return_1)
         self.assertEqual(integer_2, return_2)
@@ -90,13 +83,10 @@ class TestPlayer(unittest.TestCase):
         """
         # Params
         file_manager = self.file_manager
-
         # Returns
         return_1 = ''
-
         # Calls
         string_1 = self.player.get_inventory(file_manager)
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
