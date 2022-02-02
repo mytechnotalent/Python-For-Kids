@@ -4,6 +4,10 @@ from FileManager import FileManager
 
 
 class TestFileManager(unittest.TestCase):
+    """
+    Test class to test file_manager module
+    """
+    
     def setUp(self):
         """
         setUp class
@@ -11,32 +15,27 @@ class TestFileManager(unittest.TestCase):
         # Instantiate
         self.file_manager = FileManager()
 
-    def test_1_write_inventory_file(self):
+    def test_write_inventory_file(self):
         """
         test write_inventory_file functionality
         """
         # Params
         inventory_item = 'Red Key'
-
         # Returns
         return_1 = None
-
         # Calls
         none_1 = self.file_manager.write_inventory_file(inventory_item)
-
         # Asserts
         self.assertEqual(none_1, return_1)
 
-    def test_2_read_inventory_file(self):
+    def test_read_inventory_file(self):
         """
-        test write_inventory_file functionality
+        test read_inventory_file functionality
         """
         # Returns
         return_1 = 'Red Key'
-
         # Calls
         string_1 = self.file_manager.read_inventory_file()
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
@@ -46,10 +45,8 @@ class TestFileManager(unittest.TestCase):
         """
         # Returns
         return_1 = None
-
         # Calls
         none_1 = self.file_manager.clear_inventory_file()
-
         # Asserts
         self.assertEqual(none_1, return_1)
 
