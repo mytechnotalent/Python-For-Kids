@@ -1,7 +1,7 @@
-from machine import Machine
+from vending_machine import VendingMachine
 
 
-class ChocolateMachine(Machine):
+class ChocolateMachine(VendingMachine):
     """
     Child class to represent a chocolate machine
     """
