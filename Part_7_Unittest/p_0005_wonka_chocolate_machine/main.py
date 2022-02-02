@@ -3,9 +3,9 @@ from data import CHOCOLATE_CHOICES, raw_materials
 
 CHOICES = ('dark', 'caramel', 'mint', 'surprise', 'stats', 'shutdown')
 SHUTDOWN_PASSWORD = '8675309'
-machine_active = True
 total_money_collected = 0
 
+machine_active = True
 while machine_active:
     valid_choice = False
     choice = input('ORDER [dark - caramel - mint - surprise]: ')
