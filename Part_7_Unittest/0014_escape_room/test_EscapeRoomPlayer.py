@@ -5,6 +5,10 @@ from FileManager import FileManager
 
 
 class TestEscapeRoomPlayer(unittest.TestCase):
+    """
+    Test class to test escape_room_player module
+    """
+    
     def setUp(self):
         """
         setUp class
@@ -19,13 +23,10 @@ class TestEscapeRoomPlayer(unittest.TestCase):
         """
         # Params
         file_manager = self.file_manager
-
         # Returns
         return_1 = 'You picked up the red key!'
-
         # Calls
         string_1 = self.player.pick_up_red_key(file_manager)
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
@@ -35,10 +36,8 @@ class TestEscapeRoomPlayer(unittest.TestCase):
         """
         # Returns
         return_1 = 'You do not have the red key to escape.'
-
         # Calls
         string_1 = self.player.without_red_key()
-
         # Asserts
         self.assertEqual(string_1, return_1)
 
