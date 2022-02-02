@@ -2,14 +2,8 @@ class Machine:
     """
     Base class to represent a generic vending machine
     """
-
+    
     def __init__(self):
-        """
-        Attrs:
-            self.__money_collected: float
-            self.__total_money_collected: float
-            self.__price: float
-        """
         self.__money_collected = 0
         self.__total_money_collected = 0
         self.__price = 0
