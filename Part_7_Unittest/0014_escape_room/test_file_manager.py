@@ -1,6 +1,6 @@
 import unittest
 
-from FileManager import FileManager
+from file_manager import FileManager
 
 
 class TestFileManager(unittest.TestCase):
