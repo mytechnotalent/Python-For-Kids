@@ -56,8 +56,7 @@ class Machine:
         else:
             return 'Insufficient funds...  Dispensing coins inserted.\n'.format(excess_money_collected)
 
-    @staticmethod
-    def shutdown_machine(shutdown_password, entered_password):
+    def shutdown_machine(self, shutdown_password, entered_password):
         """Shutdown machine
 
         Params:
