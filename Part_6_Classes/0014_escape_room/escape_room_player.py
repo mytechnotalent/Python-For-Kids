@@ -3,9 +3,8 @@ from player import Player
 
 class EscapeRoomPlayer(Player):
     """
-    Child class to represent an escape room player inheriting from the Player base class
+    Child class to represent an escape room player
     """
-
     def __init__(self, name, dx=1, dy=1, location=None):
         """
         Parms:

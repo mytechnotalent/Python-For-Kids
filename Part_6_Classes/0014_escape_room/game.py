@@ -21,7 +21,21 @@ class Game:
         self.correct_answer_index = None
         self.correct_answer = None
         self.file_manager = FileManager()
+        self.__instructions()
 
+    def __instructions(self):
+        """
+        Private method to give instructions to the player
+        """
+        display.show(Image.SURPRISED)
+        say('Welcome to the Escape Room!', speed=self.say_speed)
+        say('Press the aay button to move west.', speed=self.say_speed)
+        say('Press the lowgo to move north.', speed=self.say_speed)
+        say('Press the bee button to move east.', speed=self.say_speed)
+        say('Press pin two to move south.', speed=self.say_speed)
+        say('Good luck!', speed=self.say_speed)
+        say('Let the games begin!', speed=self.say_speed)
+    
     def __generate_random_number(self, grid):
         """
         Private method to handle obtaining random number to seed
@@ -86,7 +100,7 @@ class Game:
         Returns:
             str
         """
-        return '\nThe correct answer is {0}.'.format(correct_answer)
+        return '\nIncorret.  The correct answer is {0}.'.format(correct_answer)
 
     def __win(self):
         """
@@ -113,9 +127,11 @@ class Game:
         random_location = (x, y) = self.__generate_random_numbers(grid)
         if self.random_question and random_location == player.location:
             display.show(Image.SURPRISED)
+            say('You found gold!', speed=self.say_speed)
+            say('Answer the question correctly and you might find a red key!', speed=self.say_speed)
             say(self.random_question, speed=self.say_speed)
             say('Press the aay button for {0}.'.format(self.answer_1), speed=self.say_speed)
-            say('Press the logo for {0}.'.format(self.answer_2), speed=self.say_speed)
+            say('Press the lowgo for {0}.'.format(self.answer_2), speed=self.say_speed)
             say('Press the bee button for {0}.'.format(self.answer_3), speed=self.say_speed)
             display.show(Image.HAPPY)
             return True
@@ -132,7 +148,7 @@ class Game:
             player_response: int
 
         Returns:
-            Bool or None
+            bool
         """
         if isinstance(self.correct_answer_index, int):
             if player_response == self.correct_answer_index + 1:
@@ -152,12 +168,13 @@ class Game:
                         display.show(Image.SURPRISED)
                         say(player.pick_up_red_key(self.file_manager), speed=self.say_speed)
                         self.final_question = True
-                        return None
+                        return False
                     else:
                         display.show(Image.SURPRISED)
                         say(player.without_red_key(), speed=self.say_speed)
-                        return None
+                        return False
             else:
                 display.show(Image.SURPRISED)
                 say(self.__incorrect_answer_response(self.correct_answer), speed=self.say_speed)
-                return None
+                return False
+    
