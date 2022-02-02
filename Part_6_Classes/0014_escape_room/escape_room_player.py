@@ -6,19 +6,17 @@ class EscapeRoomPlayer(Player):
     Child class to represent an escape room player inheriting from the Player base class
     """
 
-    def __init__(self, name=None, dx=1, dy=1, armour=None, inventory=None):
+    def __init__(self, name, dx=1, dy=1, location=None):
         """
-        Attrs:
+        Parms:
             name: str
-            dx: int
-            dy: int
-            armour = list
-            inventory: list
+            dx: int, optional
+            dy: int, optional
+            location: tuple, optional
         """
-        super().__init__(name, dx, dy, armour, inventory)
+        super().__init__(name, dx, dy, location)
 
-    @staticmethod
-    def pick_up_red_key(file_manager):
+    def pick_up_red_key(self, file_manager):
         """
         Method to handle picking up red key
 
@@ -31,8 +29,7 @@ class EscapeRoomPlayer(Player):
         file_manager.write_inventory_file('Red Key')
         return 'You picked up the red key!'
 
-    @staticmethod
-    def without_red_key():
+    def without_red_key(self):
         """
         Method to handle not having the red key
 

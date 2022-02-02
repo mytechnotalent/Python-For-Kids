@@ -5,11 +5,11 @@ class Grid:
 
     def __init__(self, led_height=0, led_width=0, led_on='9', led_off='0'):
         """
-        Attrs:
-            led_height: int
-            led_width: int
-            led_on: int
-            led_off: int
+        Params:
+            led_height: int, optional
+            led_width: int, optional
+            led_on: str, optional
+            led_off: str, optional
         """
         self.led_height = led_height
         self.led_width = led_width
@@ -23,12 +23,13 @@ class Grid:
         Private method to create a grid
 
         Returns:
-             str, str, str
+            str, str, str
         """
         top_wall = self.led_on * self.led_width + '\n'
         side_walls = ''
         for _ in range(self.available_height):
-            side_walls += self.led_on + self.led_off * self.available_width + self.led_on + '\n'
+            side_walls += self.led_on + self.led_off * \
+                self.available_width + self.led_on + '\n'
         bottom_wall = self.led_on * self.led_width
         return top_wall, side_walls, bottom_wall
 

@@ -6,14 +6,15 @@ class Player:
     Base class to represent a generic player
     """
 
-    def __init__(self, name='Generic', dx=0, dy=0, armour=None, inventory=None):
+    def __init__(self, name, dx, dy, location=None, armour=None, inventory=None):
         """
-        Attrs:
+        Params:
             name: str
             dx: int
             dy: int
-            armour = list
-            inventory: list
+            location: tuple, optional
+            armour = list, optional
+            inventory: list, optional 
         """
         self.name = name
         self.dx = dx
@@ -24,10 +25,11 @@ class Player:
         if inventory is None:
             inventory = []
         self.inventory = inventory
+        self.location = location
 
     def __move(self, dx, dy):
         """
-        Method to move a generic player based on their current x and y location
+        Private method to move a generic player based on their current x and y location
 
         Params:
             dx: int
@@ -36,44 +38,18 @@ class Player:
         self.dx += dx
         self.dy += dy
 
-    def __move_north(self):
-        """
-        Method to move a generic player from their current position to one position north
-        """
-        self.__move(dx=0, dy=-1)
-
-    def __move_south(self):
-        """
-        Method to move a generic player from their current position to one position south
-        """
-        self.__move(dx=0, dy=1)
-
-    def __move_east(self):
-        """
-        Method to move a generic player from their current position to one position east
-        """
-        self.__move(dx=1, dy=0)
-
-    def __move_west(self):
-        """
-        Method to move a generic player from their current position to one position west
-        """
-        self.__move(dx=-1, dy=0)
-
     def move_east(self, grid):
         """
         Method to move the player east one position
 
         Params:
             grid: object
-
-        Returns:
-            int, int
         """
         if self.dx < grid.available_width:
-            self.__move_east()
+            self.__move(dx=1, dy=0)
         sleep(0.25)
-        return self.dx, self.dy
+        self.location = self.dx, self.dy
+        grid.update(self)
 
     def move_west(self, grid):
         """
@@ -81,15 +57,13 @@ class Player:
 
         Params:
             grid: object
-
-        Returns:
-            int, int
         """
         # If the  player is against the left wall do NOT allow them to go through it
         if self.dx != 1 and self.dx <= grid.available_width:
-            self.__move_west()
+            self.__move(dx=-1, dy=0)
         sleep(0.25)
-        return self.dx, self.dy
+        self.location = self.dx, self.dy
+        grid.update(self)
 
     def move_north(self, grid):
         """
@@ -97,15 +71,13 @@ class Player:
 
         Params:
             grid: object
-
-        Returns:
-            int, int
         """
         # If the player is against the top wall do NOT allow them to go through it
         if self.dy != 1 and self.dy <= grid.available_height:
-            self.__move_north()
+            self.__move(dx=0, dy=-1)
         sleep(0.25)
-        return self.dx, self.dy
+        self.location = self.dx, self.dy
+        grid.update(self)
 
     def move_south(self, grid):
         """
@@ -113,17 +85,14 @@ class Player:
 
         Params:
             grid: object
-
-        Returns:
-            int, int
         """
         if self.dy < grid.available_height:
-            self.__move_south()
+            self.__move(dx=0, dy=1)
         sleep(0.25)
-        return self.dx, self.dy
+        self.location = self.dx, self.dy
+        grid.update(self)
 
-    @staticmethod
-    def get_inventory(file_manager):
+    def get_inventory(self, file_manager):
         """
         Method to get the player inventory from disk
 

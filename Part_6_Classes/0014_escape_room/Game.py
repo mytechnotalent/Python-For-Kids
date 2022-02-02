@@ -1,15 +1,30 @@
 from random import randint, choice
+from microbit import display, Image
+from speech import say
+import music
+
+from data import questions
+from file_manager import FileManager
 
 
 class Game:
     """
     Class to handle game integration
     """
+    def __init__(self):
+        self.say_speed = 95
+        self.final_question = False
+        self.random_question = None
+        self.answer_1 = None
+        self.answer_2 = None
+        self.answer_3 = None
+        self.correct_answer_index = None
+        self.correct_answer = None
+        self.file_manager = FileManager()
 
-    @staticmethod
-    def generate_random_number(grid):
+    def __generate_random_number(self, grid):
         """
-        Method to handle obtaining random number to seed
+        Private method to handle obtaining random number to seed
         the Red Key placement
 
         Params:
@@ -21,10 +36,9 @@ class Game:
         x = randint(1, grid.available_width)
         return x
 
-    @staticmethod
-    def generate_random_numbers(grid):
+    def __generate_random_numbers(self, grid):
         """
-        Method to handle obtaining random number to place question
+        Private method to handle obtaining random number to place question
 
         Params:
             grid: object
@@ -39,38 +53,32 @@ class Game:
             y = randint(1, grid.available_width)
         return x, y
 
-    @staticmethod
-    def ask_random_question(d_questions):
-        """Method to ask a random question from the database
+    def __ask_random_question(self, d_questions):
+        """
+        Private method to ask a random question from the database
 
         Params:
             d_questions: dict
-
-        Returns:
-            str, str, str, str, int, str
         """
-        random_question = choice(list(d_questions))
-        answer_1 = d_questions[random_question][0]
-        answer_2 = d_questions[random_question][1]
-        answer_3 = d_questions[random_question][2]
-        correct_answer_index = d_questions[random_question][3]
-        correct_answer = d_questions[random_question][correct_answer_index]
-        return random_question, answer_1, answer_2, answer_3, correct_answer_index, correct_answer
-
-    @staticmethod
-    def correct_answer_response():
+        self.random_question = choice(list(d_questions))
+        self.answer_1 = d_questions[self.random_question][0]
+        self.answer_2 = d_questions[self.random_question][1]
+        self.answer_3 = d_questions[self.random_question][2]
+        self.correct_answer_index = d_questions[self.random_question][3]
+        self.correct_answer = d_questions[self.random_question][self.correct_answer_index]
+                
+    def __correct_answer_response(self):
         """
-        Method to handle correct answer response
-        
+        Private method to handle correct answer response
+
         Returns:
             str
         """
         return '\nCorrect!'
 
-    @staticmethod
-    def incorrect_answer_response(correct_answer):
+    def __incorrect_answer_response(self, correct_answer):
         """
-        Method to handle incorrect answer logic
+        Private method to handle incorrect answer logic
 
         Params:
             correct_answer: str
@@ -80,16 +88,76 @@ class Game:
         """
         return '\nThe correct answer is {0}.'.format(correct_answer)
 
-    @staticmethod
-    def win(file_manager):
+    def __win(self):
         """
-        Method to handle win game logic
-
-        Params:
-            file_manager: object
+        Private method to handle win game logic
 
         Returns:
             str
         """
-        file_manager.clear_inventory_file()
+        self.file_manager.clear_inventory_file()
         return '\nYou Escaped!'
+
+    def generate_question(self, grid, player):
+        """
+        Method to generate a question
+
+        Params:
+            grid: object
+            player: object
+
+        Returns:
+            bool
+        """
+        self.__ask_random_question(questions)
+        random_location = (x, y) = self.__generate_random_numbers(grid)
+        if self.random_question and random_location == player.location:
+            display.show(Image.SURPRISED)
+            say(self.random_question, speed=self.say_speed)
+            say('Press the aay button for {0}.'.format(self.answer_1), speed=self.say_speed)
+            say('Press the logo for {0}.'.format(self.answer_2), speed=self.say_speed)
+            say('Press the bee button for {0}.'.format(self.answer_3), speed=self.say_speed)
+            display.show(Image.HAPPY)
+            return True
+        else:
+            return False
+                    
+    def check_player_win(self, grid, player, player_response):
+        """
+        Method to handle the check if player won
+
+        Params:
+            grid: object
+            player: object
+            player_response: int
+
+        Returns:
+            Bool or None
+        """
+        if isinstance(self.correct_answer_index, int):
+            if player_response == self.correct_answer_index + 1:
+                display.show(Image.SURPRISED)
+                say(self.__correct_answer_response(), speed=self.say_speed)
+                inventory = player.get_inventory(self.file_manager)
+                player.inventory.append(inventory)
+                if 'Red Key' in player.inventory:
+                    display.show(Image.SURPRISED)
+                    say(self.__win(), speed=self.say_speed)
+                    music.play(music.POWER_UP)
+                    display.show(Image.ALL_CLOCKS, loop=False, delay=100)
+                    return True
+                elif 'Red Key' not in player.inventory and not self.final_question:
+                    receive_red_key = self.__generate_random_number(grid)
+                    if receive_red_key == 2:
+                        display.show(Image.SURPRISED)
+                        say(player.pick_up_red_key(self.file_manager), speed=self.say_speed)
+                        self.final_question = True
+                        return None
+                    else:
+                        display.show(Image.SURPRISED)
+                        say(player.without_red_key(), speed=self.say_speed)
+                        return None
+            else:
+                display.show(Image.SURPRISED)
+                say(self.__incorrect_answer_response(self.correct_answer), speed=self.say_speed)
+                return None
