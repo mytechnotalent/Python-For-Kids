@@ -3,9 +3,10 @@ from data import CHOCOLATE_CHOICES, raw_materials
 
 CHOICES = ('dark', 'caramel', 'mint', 'surprise', 'stats', 'shutdown')
 MAX_VALUE = 100.00
-chocolate_machine = ChocolateMachine(CHOICES)
-chocolate_machine_active = True
 
+chocolate_machine = ChocolateMachine(CHOICES)
+
+chocolate_machine_active = True
 while chocolate_machine_active:
     valid_choice = False
     choice = input('ORDER [dark @ $2.75 - caramel @ $3.25 - mint @ $2.50 - surprise @ $3.25]: ')
