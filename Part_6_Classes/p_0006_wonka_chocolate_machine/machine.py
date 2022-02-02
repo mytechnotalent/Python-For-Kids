@@ -41,7 +41,8 @@ class Machine:
             return 'Please enter valid currency...  Dispensing any coins inserted.\n'
 
     def has_enough_money(self, price):
-        """Check to see if customer put in enough money into the machine
+        """
+        Check to see if customer put in enough money into the machine
 
         Params:
             price: float
@@ -57,7 +58,8 @@ class Machine:
             return 'Insufficient funds...  Dispensing coins inserted.\n'.format(excess_money_collected)
 
     def shutdown_machine(self, shutdown_password, entered_password):
-        """Shutdown machine
+        """
+        Shutdown machine
 
         Params:
             shutdown_password: str
