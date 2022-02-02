@@ -1,7 +1,7 @@
 import unittest
 
-from EscapeRoomPlayer import EscapeRoomPlayer
-from FileManager import FileManager
+from escape_room_player import EscapeRoomPlayer
+from file_manager import FileManager
 
 
 class TestEscapeRoomPlayer(unittest.TestCase):
