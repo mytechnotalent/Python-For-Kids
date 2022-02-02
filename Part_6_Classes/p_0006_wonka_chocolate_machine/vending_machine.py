@@ -1,4 +1,4 @@
-class Machine:
+class VendingMachine:
     """
     Base class to represent a generic vending machine
     """
