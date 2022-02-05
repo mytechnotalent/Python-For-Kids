@@ -11,6 +11,7 @@ class Game:
     """
     Class to handle game integration
     """
+    
     def __init__(self):
         self.say_speed = 95
         self.final_question = False
