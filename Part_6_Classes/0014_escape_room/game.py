@@ -11,9 +11,9 @@ class Game:
     """
     Class to handle game integration
     """
-    
+
     def __init__(self):
-        self.say_speed = 95
+        self.SAY_SPEED = 95
         self.final_question = False
         self.random_question = None
         self.answer_1 = None
@@ -24,23 +24,10 @@ class Game:
         self.file_manager = FileManager()
         self.__instructions()
 
-    def __instructions(self):
+    @staticmethod
+    def __generate_random_number(grid):
         """
-        Private method to give instructions to the player
-        """
-        display.show(Image.SURPRISED)
-        say('Welcome to the Escape Room!', speed=self.say_speed)
-        say('Press the aay button to move west.', speed=self.say_speed)
-        say('Press the lowgo to move north.', speed=self.say_speed)
-        say('Press the bee button to move east.', speed=self.say_speed)
-        say('Press pin two to move south.', speed=self.say_speed)
-        say('Good luck!', speed=self.say_speed)
-        say('Let the games begin!', speed=self.say_speed)
-    
-    def __generate_random_number(self, grid):
-        """
-        Private method to handle obtaining random number to seed
-        the Red Key placement
+        Private static method to handle obtaining random number
 
         Params:
             grid: object
@@ -51,9 +38,10 @@ class Game:
         x = randint(1, grid.available_width)
         return x
 
-    def __generate_random_numbers(self, grid):
+    @staticmethod
+    def __generate_random_numbers(grid):
         """
-        Private method to handle obtaining random number to place question
+        Private static method to handle obtaining random numbers
 
         Params:
             grid: object
@@ -68,6 +56,29 @@ class Game:
             y = randint(1, grid.available_width)
         return x, y
 
+    @staticmethod
+    def __correct_answer_response():
+        """
+        Private static method to handle correct answer response
+
+        Returns:
+            str
+        """
+        return '\nCorrect!'
+    
+    def __instructions(self):
+        """
+        Private method to give instructions to the player
+        """
+        display.show(Image.SURPRISED)
+        say('Welcome to the Escape Room!', speed=self.SAY_SPEED)
+        say('Press the aay button to move west.', speed=self.SAY_SPEED)
+        say('Press the lowgo to move north.', speed=self.SAY_SPEED)
+        say('Press the bee button to move east.', speed=self.SAY_SPEED)
+        say('Press pin two to move south.', speed=self.SAY_SPEED)
+        say('Good luck!', speed=self.SAY_SPEED)
+        say('Let the games begin!', speed=self.SAY_SPEED)
+    
     def __ask_random_question(self, d_questions):
         """
         Private method to ask a random question from the database
@@ -81,17 +92,8 @@ class Game:
         self.answer_3 = d_questions[self.random_question][2]
         self.correct_answer_index = d_questions[self.random_question][3]
         self.correct_answer = d_questions[self.random_question][self.correct_answer_index]
-                
-    def __correct_answer_response(self):
-        """
-        Private method to handle correct answer response
 
-        Returns:
-            str
-        """
-        return '\nCorrect!'
-
-    def __incorrect_answer_response(self, correct_answer):
+    def __incorrect_answer_response(self):
         """
         Private method to handle incorrect answer logic
 
@@ -101,7 +103,7 @@ class Game:
         Returns:
             str
         """
-        return '\nIncorret.  The correct answer is {0}.'.format(correct_answer)
+        return '\nIncorret.  The correct answer is {0}.'.format(self.correct_answer)
 
     def __win(self):
         """
@@ -128,18 +130,18 @@ class Game:
         random_location = (x, y) = self.__generate_random_numbers(grid)
         if self.random_question and random_location == player.location:
             display.show(Image.SURPRISED)
-            say('You found gold!', speed=self.say_speed)
-            say('Answer the question correctly and you might find a red key!', speed=self.say_speed)
-            say(self.random_question, speed=self.say_speed)
-            say('Press the aay button for {0}.'.format(self.answer_1), speed=self.say_speed)
-            say('Press the lowgo for {0}.'.format(self.answer_2), speed=self.say_speed)
-            say('Press the bee button for {0}.'.format(self.answer_3), speed=self.say_speed)
+            say('You found gold!', speed=self.SAY_SPEED)
+            say('Answer the question correctly.', speed=self.SAY_SPEED)
+            say(self.random_question, speed=self.SAY_SPEED)
+            say('Press the aay button for {0}.'.format(self.answer_1), speed=self.SAY_SPEED)
+            say('Press the lowgo for {0}.'.format(self.answer_2), speed=self.SAY_SPEED)
+            say('Press the bee button for {0}.'.format(self.answer_3), speed=self.SAY_SPEED)
             display.show(Image.HAPPY)
             return True
         else:
             return False
                     
-    def check_player_win(self, grid, player, player_response):
+    def did_player_win(self, grid, player, player_response):
         """
         Method to handle the check if player won
 
@@ -154,12 +156,12 @@ class Game:
         if isinstance(self.correct_answer_index, int):
             if player_response == self.correct_answer_index + 1:
                 display.show(Image.SURPRISED)
-                say(self.__correct_answer_response(), speed=self.say_speed)
+                say(self.__correct_answer_response(), speed=self.SAY_SPEED)
                 inventory = player.get_inventory(self.file_manager)
                 player.inventory.append(inventory)
                 if 'Red Key' in player.inventory:
                     display.show(Image.SURPRISED)
-                    say(self.__win(), speed=self.say_speed)
+                    say(self.__win(), speed=self.SAY_SPEED)
                     music.play(music.POWER_UP)
                     display.show(Image.ALL_CLOCKS, loop=False, delay=100)
                     return True
@@ -167,15 +169,15 @@ class Game:
                     receive_red_key = self.__generate_random_number(grid)
                     if receive_red_key == 2:
                         display.show(Image.SURPRISED)
-                        say(player.pick_up_red_key(self.file_manager), speed=self.say_speed)
+                        say(player.pick_up_red_key(self.file_manager), speed=self.SAY_SPEED)
                         self.final_question = True
                         return False
                     else:
                         display.show(Image.SURPRISED)
-                        say(player.without_red_key(), speed=self.say_speed)
+                        say(player.without_red_key(), speed=self.SAY_SPEED)
                         return False
             else:
                 display.show(Image.SURPRISED)
-                say(self.__incorrect_answer_response(self.correct_answer), speed=self.say_speed)
+                say(self.__incorrect_answer_response(), speed=self.SAY_SPEED)
                 return False
     

@@ -5,6 +5,7 @@ class EscapeRoomPlayer(Player):
     """
     Child class to represent an escape room player
     """
+
     def __init__(self, name, dx=1, dy=1, location=None):
         """
         Parms:
@@ -15,22 +16,24 @@ class EscapeRoomPlayer(Player):
         """
         super().__init__(name, dx, dy, location)
 
-    def pick_up_red_key(self, file_manager):
+    @staticmethod
+    def pick_up_red_key(game):
         """
-        Method to handle picking up red key
+        Static method to handle picking up red key
 
         Params:
-            file_manager: object
+            game: object
 
         Returns:
             str
         """
-        file_manager.write_inventory_file('Red Key')
+        game.write_inventory_file('Red Key')
         return 'You picked up the red key!'
 
-    def without_red_key(self):
+    @staticmethod
+    def without_red_key():
         """
-        Method to handle not having the red key
+        Static method to handle not having the red key
 
         Returns:
             str

@@ -37,7 +37,21 @@ class Player:
         """
         self.dx += dx
         self.dy += dy
+    
+    @staticmethod
+    def get_inventory(file_manager):
+        """
+        Static method to get the player inventory from disk
 
+        Params:
+            file_manager: object
+
+        Returns:
+            str
+        """
+        inventory = file_manager.read_inventory_file()
+        return inventory
+    
     def move_east(self, grid):
         """
         Method to move the player east one position
@@ -91,16 +105,3 @@ class Player:
         sleep(0.25)
         self.location = self.dx, self.dy
         grid.update(self)
-
-    def get_inventory(self, file_manager):
-        """
-        Method to get the player inventory from disk
-
-        Params:
-            file_manager: object
-
-        Returns:
-            str
-        """
-        inventory = file_manager.read_inventory_file()
-        return inventory

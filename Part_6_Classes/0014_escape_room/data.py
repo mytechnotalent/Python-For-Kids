@@ -13,7 +13,7 @@ questions = {
             '1961',
             1
         ],
-    'What year did Damien George create MicroPython?':
+    'What year did Damien George create MicroPiethon?':
         [
             '2015',
             '2012',

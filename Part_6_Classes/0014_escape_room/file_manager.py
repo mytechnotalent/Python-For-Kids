@@ -1,12 +1,34 @@
 class FileManager:
     """
-    Class to implement file access to store inventory if
-    power lost or reset to maintain persistence
+    Class to implement file access to store inventory to maintain persistence
     """
-    def write_inventory_file(self, inventory_item):
-        """
-        Method to write inventory item to inventory file upon picking it up
 
+    def __init__(self):
+        self.inventory = ''
+
+    @staticmethod
+    def clear_inventory_file():
+        """
+        Static method to clear inventory file after winning a game
+
+        Returns:
+            bool
+        """
+        try:
+            with open('inventory', 'w') as file:
+                file.write('')
+                return True
+        except OSError:
+            return False
+
+    @staticmethod
+    def write_inventory_file(inventory_item):
+        """
+        Static method to write inventory item to inventory file upon picking it up
+
+        Params:
+            inventory_item: str
+    
         Returns:
             bool
         """
@@ -26,21 +48,7 @@ class FileManager:
         """
         try:
             with open('inventory', 'r') as file:
-                inventory = file.read()
-                return inventory
-        except OSError:
-            return False
-
-    def clear_inventory_file(self):
-        """
-        Method to clear inventory file after winning a game
-
-        Returns:
-            bool
-        """
-        try:
-            with open('inventory', 'w') as file:
-                file.write('')
-                return True
+                self.inventory = file.read()
+                return self.inventory
         except OSError:
             return False
