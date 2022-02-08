@@ -43,7 +43,7 @@ This lesson will step-by-step code a FUN program where we will work with words a
 This lesson will step-by-step code a FUN program where we will work with word lists and learn about how to make variables with them. 
 
 -> Click [HERE](https://github.com/mytechnotalent/Python-For-Kids/blob/main/Python_For_Kids_01r.pdf) to read the lesson in PDF format. <br>
--> Click [HERE](https://youtu.be/2cYZt0imQBk) to watch the video on YouTube..
+-> Click [HERE](https://youtu.be/2cYZt0imQBk) to watch the video on YouTube.
 
 ## Chapter 7: Fun With Music
 This lesson will step-by-step code a FUN song making program where our little microcontroller will play various songs to his new friend. 
