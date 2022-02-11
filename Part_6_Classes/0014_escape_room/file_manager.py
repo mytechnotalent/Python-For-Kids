@@ -17,6 +17,7 @@ class FileManager:
         try:
             with open('inventory', 'w') as file:
                 file.write('')
+                
                 return True
         except OSError:
             return False
@@ -35,6 +36,7 @@ class FileManager:
         try:
             with open('inventory', 'w') as file:
                 file.write(inventory_item)
+                
                 return True
         except OSError:
             return False
@@ -49,6 +51,7 @@ class FileManager:
         try:
             with open('inventory', 'r') as file:
                 self.inventory = file.read()
+                
                 return self.inventory
         except OSError:
             return False
