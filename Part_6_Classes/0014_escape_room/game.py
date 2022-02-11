@@ -36,7 +36,6 @@ class Game:
             int
         """
         x = randint(1, grid.available_width)
-        
         return x
 
     @staticmethod
@@ -55,7 +54,6 @@ class Game:
         while x == 1 and y == 1:
             x = randint(1, grid.available_width)
             y = randint(1, grid.available_width)
-            
         return x, y
 
     @staticmethod
@@ -73,7 +71,6 @@ class Game:
         Private method to give instructions to the player
         """
         display.show(Image.SURPRISED)
-        
         say('Welcome to the Escape Room!', speed=self.SAY_SPEED)
         say('Press the aay button to move west.', speed=self.SAY_SPEED)
         say('Press the lowgo to move north.', speed=self.SAY_SPEED)
@@ -142,7 +139,6 @@ class Game:
             say('Press the lowgo for {0}.'.format(self.answer_2), speed=self.SAY_SPEED)
             say('Press the bee button for {0}.'.format(self.answer_3), speed=self.SAY_SPEED)
             display.show(Image.HAPPY)
-            
             return True
         else:
             return False
@@ -176,22 +172,15 @@ class Game:
                     receive_red_key = self.__generate_random_number(grid)
                     if receive_red_key == 2:
                         display.show(Image.SURPRISED)
-                        
                         say(player.pick_up_red_key(self.file_manager), speed=self.SAY_SPEED)
-                        
                         self.final_question = True
-                        
                         return False
                     else:
                         display.show(Image.SURPRISED)
-                        
                         say(player.without_red_key(), speed=self.SAY_SPEED)
-                        
                         return False
             else:
                 display.show(Image.SURPRISED)
-                
                 say(self.__incorrect_answer_response(), speed=self.SAY_SPEED)
-                
                 return False
     
