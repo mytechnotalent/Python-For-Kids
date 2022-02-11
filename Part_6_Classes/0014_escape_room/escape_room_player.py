@@ -28,6 +28,7 @@ class EscapeRoomPlayer(Player):
             str
         """
         game.write_inventory_file('Red Key')
+        
         return 'You picked up the red key!'
 
     @staticmethod
