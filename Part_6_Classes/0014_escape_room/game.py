@@ -113,7 +113,6 @@ class Game:
             str
         """
         self.file_manager.clear_inventory_file()
-        
         return '\nYou Escaped!'
 
     def generate_question(self, grid, player):
@@ -128,7 +127,6 @@ class Game:
             bool
         """
         self.__ask_random_question(questions)
-        
         random_location = (x, y) = self.__generate_random_numbers(grid)
         if self.random_question and random_location == player.location:
             display.show(Image.SURPRISED)
@@ -161,7 +159,6 @@ class Game:
                 say(self.__correct_answer_response(), speed=self.SAY_SPEED)
                 inventory = player.get_inventory(self.file_manager)
                 player.inventory.append(inventory)
-                
                 if 'Red Key' in player.inventory:
                     display.show(Image.SURPRISED)
                     say(self.__win(), speed=self.SAY_SPEED)
