@@ -42,7 +42,7 @@ class AssertRaisesContext:
         if exc_type is None:
             assert False, '%r not raised' % self.expected
         if issubclass(exc_type, self.expected):
-            return True
+            return True 
         return False
 
 
@@ -71,6 +71,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r vs (expected) %r' % (x, y)
+            
         assert x == y, msg
 
     def assertNotEqual(self, x, y, msg=''):
@@ -84,6 +85,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r not expected to be equal %r' % (x, y)
+            
         assert x != y, msg
 
     def assertAlmostEqual(self, x, y, places=None, msg='', delta=None):
@@ -99,20 +101,26 @@ class TestCase:
         """
         if x == y:
             return
+        
         if delta is not None and places is not None:
             raise TypeError('specify delta or places not both')
+            
         if delta is not None:
             if abs(x - y) <= delta:
                 return
+            
             if not msg:
                 msg = '%r != %r within %r delta' % (x, y, delta)
         else:
             if places is None:
                 places = 7
+                
             if round(abs(y-x), places) == 0:
                 return
+            
             if not msg:
                 msg = '%r != %r within %r places' % (x, y, places)
+                
         assert False, msg
 
     def assertNotAlmostEqual(self, x, y, places=None, msg='', delta=None):
@@ -128,18 +136,23 @@ class TestCase:
         """
         if delta is not None and places is not None:
             raise TypeError("specify delta or places not both")
+            
         if delta is not None:
             if not (x == y) and abs(x - y) > delta:
                 return
+            
             if not msg:
                 msg = '%r == %r within %r delta' % (x, y, delta)
         else:
             if places is None:
                 places = 7
+                
             if not (x == y) and round(abs(y-x), places) != 0:
                 return
+            
             if not msg:
                 msg = '%r == %r within %r places' % (x, y, places)
+                
         assert False, msg
 
     def assertIs(self, x, y, msg=''):
@@ -153,6 +166,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r is not %r' % (x, y)
+            
         assert x is y, msg
 
     def assertIsNot(self, x, y, msg=''):
@@ -166,6 +180,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r is %r' % (x, y)
+            
         assert x is not y, msg
 
     def assertIsNone(self, x, msg=''):
@@ -178,6 +193,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r is not None' % x
+            
         assert x is None, msg
 
     def assertIsNotNone(self, x, msg=''):
@@ -190,6 +206,7 @@ class TestCase:
         """
         if not msg:
             msg = '%r is None' % x
+            
         assert x is not None, msg
 
     def assertTrue(self, x, msg=''):
@@ -202,6 +219,7 @@ class TestCase:
         """
         if not msg:
             msg = 'Expected %r to be True' % x
+            
         assert x, msg
 
     def assertFalse(self, x, msg=''):
@@ -214,6 +232,7 @@ class TestCase:
         """
         if not msg:
             msg = 'Expected %r to be False' % x
+            
         assert not x, msg
 
     def assertIn(self, x, y, msg=''):
@@ -227,6 +246,7 @@ class TestCase:
         """
         if not msg:
             msg = 'Expected %r to be in %r' % (x, y)
+            
         assert x in y, msg
 
     def assertIsInstance(self, x, y, msg=''):
@@ -252,6 +272,7 @@ class TestCase:
         """
         if func is None:
             return AssertRaisesContext(exc)
+        
         try:
             func(*args, **kwargs)
             assert False, "%r not raised" % exc
@@ -364,7 +385,9 @@ class TestRunner:
         res = TestResult()
         for c in suite.tests:
             run_class(c, res)
+            
         print("Ran %d tests\n" % res.testsRun)
+        
         if res.failuresNum > 0 or res.errorsNum > 0:
             print("FAILED (failures=%d, errors=%d)" % (res.failuresNum, res.errorsNum))
         else:
@@ -407,21 +430,24 @@ def run_class(c, test_result):
     o = c()
     set_up = getattr(o, 'setUp', lambda: None)
     tear_down = getattr(o, 'tearDown', lambda: None)
+    
     for name in dir(o):
         if name.startswith('test'):
             print('%s (%s) ...' % (name, c.__qualname__), end='')
+            
             m = getattr(o, name)
             set_up()
+            
             try:
                 test_result.testsRun += 1
                 m()
                 print(' ok')
             except SkipTest as e:
-                print(' skipped:', e.args[0])
+                print(' skipped:', e.args[0]) 
                 test_result.skippedNum += 1
             except:
                 print(' FAIL')
-                test_result.failuresNum += 1
+                test_result.failuresNum += 1 
                 raise
             finally:
                 tear_down()
@@ -442,10 +468,13 @@ def main(module='__main__'):
 
 
     m = __import__(module)
+    
     suite = TestSuite()
     for c in test_cases(m):
         suite.addTest(c)
+        
     runner = TestRunner()
     result = runner.run(suite)
+    
     # Terminate with non zero return code in case of failures
     sys.exit(result.failuresNum > 0)
