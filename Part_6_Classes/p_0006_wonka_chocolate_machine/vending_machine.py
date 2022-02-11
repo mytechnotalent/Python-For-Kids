@@ -53,6 +53,7 @@ class VendingMachine:
         excess_money_collected = round(self.__money_collected - price, 2)
         if self.__money_collected >= price:
             self.__total_money_collected += price
+            
             return 'Change: ${0:.2f}\n'.format(excess_money_collected)
         else:
             return 'Insufficient funds...  Dispensing coins inserted.\n'.format(excess_money_collected)
