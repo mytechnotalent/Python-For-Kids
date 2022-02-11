@@ -50,6 +50,7 @@ class Player:
             str
         """
         inventory = file_manager.read_inventory_file()
+        
         return inventory
     
     def move_east(self, grid):
@@ -61,8 +62,11 @@ class Player:
         """
         if self.dx < grid.available_width:
             self.__move(dx=1, dy=0)
+            
         sleep(0.25)
+        
         self.location = self.dx, self.dy
+        
         grid.update(self)
 
     def move_west(self, grid):
@@ -75,8 +79,11 @@ class Player:
         # If the  player is against the left wall do NOT allow them to go through it
         if self.dx != 1 and self.dx <= grid.available_width:
             self.__move(dx=-1, dy=0)
+            
         sleep(0.25)
+        
         self.location = self.dx, self.dy
+        
         grid.update(self)
 
     def move_north(self, grid):
@@ -89,8 +96,11 @@ class Player:
         # If the player is against the top wall do NOT allow them to go through it
         if self.dy != 1 and self.dy <= grid.available_height:
             self.__move(dx=0, dy=-1)
+            
         sleep(0.25)
+        
         self.location = self.dx, self.dy
+        
         grid.update(self)
 
     def move_south(self, grid):
@@ -102,6 +112,9 @@ class Player:
         """
         if self.dy < grid.available_height:
             self.__move(dx=0, dy=1)
+            
         sleep(0.25)
+        
         self.location = self.dx, self.dy
+        
         grid.update(self)
