@@ -31,7 +31,6 @@ class Grid:
             side_walls += self.led_on + self.led_off * \
                 self.available_width + self.led_on + '\n'
         bottom_wall = self.led_on * self.led_width
-        
         return top_wall, side_walls, bottom_wall
 
     def update(self, player):
