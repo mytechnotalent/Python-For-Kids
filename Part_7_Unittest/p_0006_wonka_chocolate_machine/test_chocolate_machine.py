@@ -36,6 +36,7 @@ class TestChocolateMachine(unittest.TestCase):
             'vanilla extract': 2,
             'Reese\'s Pieces': 15,
         }
+        
         # Returns
         return_1 = 'sugar 2 tablespoons remaining\n' \
             'butter 2 teaspoons remaining\n' \
@@ -47,8 +48,10 @@ class TestChocolateMachine(unittest.TestCase):
             'vanilla extract 2 teaspoons remaining\n' \
             'Reese\'s Pieces 15 tablespoons remaining\n' \
             'Total Money Collected: $0.00\n'
+        
         # Calls
         string_1 = self.chocolate_machine.stats(d_raw_materials)
+        
         # Asserts
         self.assertEqual(string_1, return_1)
 
@@ -70,10 +73,13 @@ class TestChocolateMachine(unittest.TestCase):
             'vanilla extract': 2,
             'Reese\'s Pieces': 15,
         }
+        
         # Returns
         return_1 = True
+        
         # Calls
         bool_1 = self.chocolate_machine.has_raw_materials(m_raw_materials, d_raw_materials)
+        
         # Asserts
         self.assertEqual(bool_1, return_1)
 
@@ -95,6 +101,7 @@ class TestChocolateMachine(unittest.TestCase):
             'vanilla extract': 0,
             'Reese\'s Pieces': 15,
         }
+        
         # Returns
         return_1 = 'Machine Needs Additional: sugar\n' \
                    'Machine Needs Additional: butter\n' \
@@ -102,8 +109,10 @@ class TestChocolateMachine(unittest.TestCase):
                    'Machine Needs Additional: light corn syrup\n' \
                    'Machine Needs Additional: sweetened condensed milk\n' \
                    'Machine Needs Additional: vanilla extract\n'
+        
         # Calls
         bool_1 = self.chocolate_machine.has_raw_materials(m_raw_materials, d_raw_materials)
+        
         # Asserts
         self.assertEqual(bool_1, return_1)
 
@@ -126,8 +135,10 @@ class TestChocolateMachine(unittest.TestCase):
             'vanilla extract': 2,
             'Reese\'s Pieces': 15,
         }
+        
         # Returns
         return_1 = 'A dark chocolate bar dispensed!'
+        
         # Calls
         string_1 = self.chocolate_machine.bake_chocolate_bar(chocolate_choice, m_raw_materials, d_raw_materials)
         # Asserts
