@@ -36,7 +36,6 @@ class ChocolateMachine(VendingMachine):
         cm_stats += 'vanilla extract {0} teaspoons remaining\n'.format(d_raw_materials['vanilla extract'])
         cm_stats += 'Reese\'s Pieces {0} tablespoons remaining\n'.format(d_raw_materials['Reese\'s Pieces'])
         cm_stats += super(ChocolateMachine, self).stats()
-        
         return cm_stats
 
     def has_raw_materials(self, m_raw_materials, d_raw_materials):
@@ -54,7 +53,6 @@ class ChocolateMachine(VendingMachine):
         for m_raw_material in m_raw_materials:
             if m_raw_materials[m_raw_material] > d_raw_materials[m_raw_material]:
                 additional_resources_needed += 'Machine Needs Additional: {0}\n'.format(m_raw_material)
-                
         if additional_resources_needed:
             return additional_resources_needed
         else:
@@ -73,5 +71,4 @@ class ChocolateMachine(VendingMachine):
         """
         for m_raw_material in m_raw_materials:
             d_raw_materials[m_raw_material] -= m_raw_materials[m_raw_material]
-            
         return 'A {0} chocolate bar dispensed!'.format(chocolate_choice)
