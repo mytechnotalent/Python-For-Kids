@@ -66,6 +66,7 @@ while guess != correct_answer:
             else:
                 print('The correct answer is {0}, let\'s play again!'.format(correct_answer))
                 break
+                
         game_status = did_win(guess, correct_answer)
         if game_status == 'You won!':
             print(game_status)
