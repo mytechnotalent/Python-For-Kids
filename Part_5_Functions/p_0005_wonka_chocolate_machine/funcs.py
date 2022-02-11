@@ -12,8 +12,7 @@ def has_raw_materials(f_raw_materials, d_raw_materials):
     additional_resources_needed = ''
     for f_raw_material in f_raw_materials:
         if f_raw_materials[f_raw_material] > d_raw_materials[f_raw_material]:
-            additional_resources_needed += 'Machine Needs Additional: {0}\n'.format(f_raw_material)
-            
+            additional_resources_needed += 'Machine Needs Additional: {0}\n'.format(f_raw_material)    
     if additional_resources_needed:
         return additional_resources_needed
     else:
@@ -75,7 +74,6 @@ def bake_chocolate_bar(f_chocolate_choice, f_raw_materials, d_raw_materials):
     """
     for f_raw_material in f_raw_materials:
         d_raw_materials[f_raw_material] -= f_raw_materials[f_raw_material]
-        
     return 'A {0} chocolate bar dispensed!'.format(f_chocolate_choice)
 
 
@@ -101,5 +99,4 @@ def stats(d_raw_materials, f_total_money_collected):
     cm_stats += 'vanilla extract {0} teaspoons remaining\n'.format(d_raw_materials['vanilla extract'])
     cm_stats += 'Reese\'s Pieces {0} tablespoons remaining\n'.format(d_raw_materials['Reese\'s Pieces'])
     cm_stats += 'Total Money Collected: ${0:.2f}\n'.format(f_total_money_collected)
-    
     return cm_stats
