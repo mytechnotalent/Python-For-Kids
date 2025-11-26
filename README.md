@@ -86,5 +86,5 @@ This lesson will discuss MicroPython unittest for the micro:bit.
 
 <br>
 
-## License
+# License
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
