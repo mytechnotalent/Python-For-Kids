@@ -4,9 +4,9 @@
 
 <br>
 
-# Today's Tutorial [September 10, 2026]
-## Lesson 291: Embedded Hacking Course (Chapter 9: Debugging Uninitialized Variables)
-This chapter covers debugging uninitialized variables as well as an intro to GPIO outputs as we blink an LED as it relates to embedded development on the Pico 2.
+# Today's Tutorial [September 11, 2026]
+## Lesson 292: Embedded Hacking Course (Chapter 10: Hacking Uninitialized Variables)
+This chapter covers hacking uninitialized variables as well as an intro to GPIO outputs as we blink an LED as it relates to embedded development on the Pico 2.
 
 -> Click [HERE](https://github.com/mytechnotalent/Embedded-Hacking/blob/main/Embedded-Hacking.pdf) to read the FREE pdf book.
 
