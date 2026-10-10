@@ -4,14 +4,6 @@
 
 <br>
 
-# Today's Tutorial [October 10, 2026]
-## Lesson 321: Embedded Hacking Course (Chapter 39: Debugging Functions, w/ Param, w/ Return)
-This chapter covers debugging functions, w/ params and w/ a return value as well as additional infrared examples as we work a infrared receiver and infrared remote controller as it relates to embedded development on the Pico 2.
-
--> Click [HERE](https://github.com/mytechnotalent/Embedded-Hacking/blob/main/textbook/Embedded-Hacking.pdf) to read the FREE pdf book.
-
-<br>
-
 # Python For Kids
 A FREE comprehensive online Python development tutorial FOR KIDS utilizing an official BBC micro:bit Development Board going step-by-step into the world of Python for microcontrollers.
 
